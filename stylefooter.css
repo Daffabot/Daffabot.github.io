@@ -66,8 +66,9 @@
    }  
    .footer-call-to-action-description {  
      color: #fffff2;  
-     margin-top: 10px;  
-     margin-bottom: 20px;  
+     margin-top: 1px;  
+     margin-bottom: 1px;  
+     font-size: 20px;
    }  
    .footer-call-to-action-button:hover {  
      background-color: #fffff2;  
