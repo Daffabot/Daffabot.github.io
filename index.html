@@ -41,6 +41,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <style>
+.container {
+background: #FFF;
+width: auto;
+height: auto;
+border-radius: 10px;
+display: flex;
+flex-direction: raw;
+gap: 10px;
+padding: 20px;
+}
+.objective, .education, .awards, .visi-misi-osis, .software-skills, .recent-project, .comment {
+background: #00FFFF;
+width: auto;
+height: auto;
+border-radius: 10px;
+padding: 5px 15px;
+box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+border: 1px dashed grey;
+}
+@media screen and (max-width:600px){
+.container{
+flex-direction: column;
+}
+}
 p {font-size: 1.7em;
      font-family: 'VT323', monospace;
      width: auto;
@@ -60,7 +84,6 @@ p {font-size: 1.7em;
      font-family: "VT323";
      }
      html{scroll-behavior: smooth;}
-body{margin:0; pading:0;}
 .up-icon{
 	position: fixed;
 	width: 40px;
@@ -87,18 +110,21 @@ body{margin:0; pading:0;}
 	border-radius: 20%;
 	background: url(chatbot.gif) no-repeat;
 	bottom: 20px;
-	right: 250px;
+	right: 285px;
 	text-decoration: none;
 	text-align: center;
 	line-height: 70px;
         display: block;
 	color: ;
         img: url(chatbot.gif);
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,2);
+        border: 1px grey;
 }
+.case { padding: 0; margin: auto; display: grid; grid-template-columns: repeat(8,1fr); margin: 5px 15px; gap:20px; position: relative; } .card { width: 100%; height: auto; grid-column: span 4; margin: 10px 0; border-radius: 15px; position: relative; box-shadow: 0 10px 10px rgba(0,0,0,.1); } .head-card img { width: 100%; height: 200px; object-fit: cover; } .body-card { padding: 10px 15px; } .body-card h1 { margin: 0; } .body-card svg { width: 31px; position: absolute; bottom: 7px; right: 20px; } @media screen and (min-width: 550px) { .card { grid-column: span 4; } @media screen and (min-width: 760px) { .card { width: 350px; margin: 0 10px; } @media screen and (min-width: 960px {}
 </style>
 	<link rel="stylesheet" href="style1.css">
 	<link rel="stylesheet" href="stylefooter.css">
-</head>
+	</head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZ4JSCV"
@@ -106,35 +132,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div class="container" style="width: 100%;">
 <div class="header" style="width: 100%;">
-<img src="profil.png" style="border-radius: 50%;" width="25%" align="left">
-<br><br><br>
-<font size="5" color="#AA0">
+<img src="profil.png" style="border-radius: 50%; box-shadow: 2px 2px 2px rgba(0,0,0,0.8); border: 1px dashed grey;" width="25%" align="left">
+<br><br><br><br>
+<font size="5" color="#AA0" style="text-shadow: 3px 2px 1px grey;">
 <p>Daffa Ahmad Ibrahim</p></font>
 </div>
-<div class="objective" style="background: #00FFFF; height: auto">
-<br>
+<div class="objective">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Objective</p>
 <font size="1">
 <p align="center" width="auto" height="auto">
 Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pemrograman full stack developer. Menjadi seseorang yang berkopeten pada ketertarikan yang saya sebutkan di atas adalah impian saya. Saat ini saya lebih banyak bekerja dalam dunia pemrograman dengan tidak mengesampingkan ketertarikan saya yang lain untuk terus mempelajarinya.
 </p>
 </font>
-<br>
 </div>
-<br>
-<div class="education" style="background: #00FFFF; height: auto;">
-<br>
+<div class="education">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Education</p>
 <ul>
 <li><font style="font-size: 1em;"><p>2012-2014</p></font> <font size="3"><p>TK RA Al-Mukhlis</p></font></li>
 <li><font style="font-size: 1em;"><p>2014-2020</p></font> <font size="3"><p>SDN Wantilan</p></font></li>
 <li><font style="font-size: 1em;"><p>2020-2022</p></font> <font size="3"><p>SMPN 1 Kalijati</p></font></li>
 </ul>
-<br>
 </div>
-<br>
-<div class="awards" style="background: #00FFFF; height: auto;">
-<br>
+<div class="awards">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Awards</p>
 <ul>
 <li><font style="font-size: 1em;"><p>2015</p></font> <font size="3"><p>Juara 1 Calistung (Baca Tulis Hitung) Tingkat SD Kelas 1 Se-Kecamatan</p></font></li>
@@ -147,11 +166,8 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 </ul>
 <br>
 <p style="font-size: 23px; margin-left: 2%;">Catatan: Selalu Juara 1 di kelas dari TK, SD hingga SMP</p>
-<br>
 </div>
-<br>
-<div class="visi-misi-osis" style="background: #00FFFF; height: auto;">
-<br>
+<div class="visi-misi-osis">
 <p align="center" style="font-size: 30px; width: auto; height: auto;">Visi-Misi Dan Program Kerja OSIS</p>
 <font style="font-size: 1em; margin-left: 4%;"><p>Visi</p></font>
 <font size="2" style="margin-left: 2%;"><p>1.Membuat siswa sekolah SMPN 1 Kalijati menjadi siswa sekolah terbaik di kabupaten Subang</p></font>
@@ -185,11 +201,8 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 <br>
 <a href="https://daffabot.github.io/dokumentasi-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Dokumentasi OSIS</p></a>
 <a href="https://daffabot.github.io/jobdesk-kepengurusan-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Jobdesk Kepengurusan OSIS</p></a>
-<br>
 </div>
-<br>
-<div class="software-skills" style="background: #00FFFF; height: auto; text-align: center;">
-<br>
+<div class="software-skills" style="text-align: center;">
 <p style="font-size: 30px;">Software Skills</p>
 <table border="0" align="center" width="auto" height="auto" style="font-size: 20px;">
 <tr>
@@ -228,66 +241,32 @@ JAVA</p></font>
 </td>
 </tr>
 </table>
-<br>
 </div>
-<br>
-<div class="recent-project" style="background: #00FFFF; height: auto; text-align: center;">
-				<br>
+<div class="recent-project" style="text-align: center;">
 <p style="font-size: 30px;">Recent Project</p>
-<table border="0" align="center" width="auto" height="auto" style="font-size: 20px;">
-<tr>
-<td>
-<a href="http://bit.do/ular3d" target="_blank" id="link"><img src="ular.png" border="2" align="center" style="width: 5em; height: 5em;" /></a>
-</td>
-<td>    </td>
-<td>
-<a href="https://bit.do/roulette-daffabot" target="_blank" id="link"><img src="roulette.png" border="2" align="center" style="width: 5em; height: 5em;" /></a>
-</td>
-</tr>
-<tr>
-<td><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="http://bit.do/ular3d" target="_blank" id="link"><p align="center" width="auto" height="auto">
-Game Ular 3D</p></a></font>
-</td>
-<td>  |  </td>
-<td><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/roulette-daffabot" target="_blank" id="link"><p align="center" width="auto" height="auto">
-Game Russian Roulette</p></a></font>
-</td>
-</tr>
-<tr>
-<td colspan="2"></td>
-</tr>
-<tr>
-<td>
-<a href="https://bit.do/tank-daffabot" target="_blank" id="link"><img src="tank.png" border="2" align="center" style="width: 5em; height: 5em;" /></a>
-</td>
-<td>    </td>
-<td>
-<a href="https://bit.do/plane-daffabot" target="_blank" id="link"><img src="pesawat.png" border="2" align="center" style="width: 5em; height: 5em;" /></a>
-</td>
-</tr>
-<tr>
-<td><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/tank-daffabot" target="_blank" id="link"><p align="center" width="auto" height="auto">
-Game Tank</p></a></font>
-</td>
-<td>  |  </td>
-<td><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/plane-daffabot" target="_blank" id="link"><p align="center" width="auto" height="auto">
-Game Pesawat Tempur</p></a></font>
-</td>
-</tr>
-</table>
-<br>
+<div class="case">
+<div class="card"> <div class="head-card"> <a href="http://bit.do/ular3d" target="_blank" id="link"><img src="ular.png" border="2" align="center" alt="Game Ular 3D" style="width: 5em; height: 5em;" /></a>
+ </div> <div class="body-card"> <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="http://bit.do/ular3d" target="_blank" id="link"><b><p align="center" width="auto" height="auto">
+ Game Ular 3D</p></b></a></font> <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg> </div> </div>
+ <div class="card"> <div class="head-card"> <a href="https://bit.do/roulette-daffabot" target="_blank" id="link"><img src="roulette.png" border="2" align="center" alt="Russian Roulette" style="width: 5em; height: 5em;" /></a>
+  </div> <div class="body-card"> <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/roulette-daffabot" target="_blank" id="link"><b><p align="center" width="auto" height="auto">
+  Game Russian Roulette</p></b></a></font> <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg> </div> </div>
+  <div class="card"> <div class="head-card"> <a href="https://bit.do/tank-daffabot" target="_blank" id="link"><img src="tank.png" border="2" align="center" alt="Game Tank" style="width: 5em; height: 5em;" /></a>
+   </div> <div class="body-card"> <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/tank-daffabot" target="_blank" id="link"><b><p align="center" width="auto" height="auto">
+   Game Tank</p></b></a></font> <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>    </div> </div>
+   <div class="card"> <div class="head-card"> <a href="https://bit.do/plane-daffabot" target="_blank" id="link"><img src="pesawat.png" border="2" align="center" alt="Game Pesawat" style="width: 5em; height: 5em;" /></a>
+    </div> <div class="body-card"> <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/plane-daffabot" target="_blank" id="link"><b><p align="center" width="auto" height="auto">
+    Game Pesawat Tempur</p></b></a></font> <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg> </div> </div> </div>
 </div>
+<br>
 <br>
 <div align="center">
 <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&sa=U&ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" target="_blank"><img src="saweria.png" style="border-radius: 10%;" width="300em" height="60em" align="center"></a>
 <br>
 <br>
 <a href="https://trakteer.id/daffabot" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya" align="center"></a>
-<br>
 </div>
-<br>
-<div class="comments" id="comments" style="background: #00FFFF; height: auto;">
-<br>
+<div class="comments" id="comments" style="background: #00FFFF; height: auto; width:auto;">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Komentar</p>
 <div id="disqus_thread" style="margin-left: 6%; margin-right: 6%;"></div>
 <script>
@@ -308,9 +287,7 @@ Game Pesawat Tempur</p></a></font>
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<br>
 </div>
-<br>
 <div class="pg-footer">
               <footer class="footer">
                <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
