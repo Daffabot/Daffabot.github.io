@@ -50,6 +50,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet"> 
 
   <style>
+    .fade, body, img {
+	    -webkit-animation-name: fade;
+	    -webkit-animation-duration: 3s;
+	    animation-name: fade;
+	    animation-duration: 3s;}
+	  @-webkit-keyframes fade {
+		  from {opacity: 0}
+		  to {opacity: 1}}
+	  @keyframes fade {
+		  from {opacity: 0}
+		  to {opacity: 1}}
     * {
       margin: 0;
       padding: 0;
@@ -131,16 +142,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     nav.biru .nav-link {
     color: #F4EEE8; /* warna teks navbar */
     }
-section {
-background: #FFF;
-width: auto;
-height: auto;
-border-radius: 10px;
-display: raw;
-flex-direction: raw;
-gap: 10px;
-padding: 20px;
-}
+    section {
+    background: #FFF;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    display: raw;
+    flex-direction: raw;
+    gap: 10px;
+    padding: 20px;
+	  }
 .objective, .education, .awards, .visi-misi-osis, .software-skills, .recent-project, .comment {
 background: #00FFFF;
 width: auto;
@@ -212,10 +223,13 @@ p {font-size: 1.7em;
 }
 .case { padding: 0; margin: auto; display: grid; grid-template-columns: repeat(8,1fr); margin: 5px 15px; gap:20px; position: relative; } .card { width: 100%; height: auto; grid-column: span 4; margin: 10px 0; border-radius: 15px; position: relative; box-shadow: 0 10px 10px rgba(0,0,0,.1); } .head-card img { width: 100%; height: 200px; object-fit: cover; } .body-card { padding: 10px 15px; } .body-card h1 { margin: 0; } .body-card svg { width: 31px; position: absolute; bottom: 7px; right: 20px; } @media screen and (min-width: 550px) { .card { grid-column: span 4; } @media screen and (min-width: 760px) { .card { width: 350px; margin: 0 10px; } @media screen and (min-width: 960px {}
 </style>
+	
 	<link rel="stylesheet" href="style1.css">
 	<link rel="stylesheet" href="stylefooter.css">
+	
 	</head>
 <body>
+	
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZ4JSCV"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -225,8 +239,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <img src="image/profil.png" style="border-radius: 50%; box-shadow: 2px 2px 2px rgba(0,0,0,0.8); border: 1px dashed grey;" width="90em" align="left">
 <br><br><br><br>
 <font size="5" color="#AA0" style="text-shadow: 3px 2px 1px grey;">
-<p>Daffa Ahmad Ibrahim</p></font>
+<p>Daffa Ahmad Ibrahim</p>
+</font>
 </div>
+	
 <nav class="biru">
     <div class="nav-item">
     <a class="nav-link active" href="https://bit.ly/daffabot">Beranda</a>
@@ -247,8 +263,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://m.youtube.com/channel/UCL0ithmr-UVQa1c4y7cduOQ/featured">Youtube</a>
     </div>
     </div>
-    </nav>
+</nav>
+	
 <section>
+	
 <div class="objective">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Objective</p>
 <font size="1">
@@ -258,7 +276,9 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 </p>
 </font>
 </div>
+	
 <br>
+	
 <div class="education">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Education</p>
 <br>
@@ -267,7 +287,9 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 <font style="font-size: 1em;"><p>2020-2022</p></font> <font size="3"><p>SMPN 1 Kalijati</p></font>
 </ul>
 </div>
+	
 <br>
+	
 <div class="awards">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Awards</p>
 <br>
@@ -282,7 +304,9 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 <br>
 <p style="font-size: 23px; margin-left: 2%;">Catatan: Selalu Juara 1 di kelas dari TK, SD hingga SMP</p>
 </div>
+	
 <br>
+	
 <div class="visi-misi-osis">
 <p align="center" style="font-size: 30px; width: auto; height: auto;">Visi-Misi Dan Program Kerja OSIS</p>
 <br>
@@ -319,7 +343,9 @@ Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pe
 <a href="https://daffabot.github.io/dokumentasi-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Dokumentasi OSIS</p></a>
 <a href="https://daffabot.github.io/jobdesk-kepengurusan-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Jobdesk Kepengurusan OSIS</p></a>
 </div>
+	
 <br>
+	
 <div class="software-skills" style="text-align: center; table-align: center;">
 <p style="font-size: 30px;">Software Skills</p>
 <br>
@@ -361,7 +387,9 @@ JAVA</p></font>
 </tr>
 </tbody></table>
 </div>
+	
 <br>
+	
 <div class="recent-project" style="text-align: center;">
 <p style="font-size: 30px;">Recent Project</p>
 <br>
@@ -379,15 +407,19 @@ JAVA</p></font>
     </div> <div class="body-card"> <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://bit.do/plane-daffabot" target="_blank" id="link"><p align="center" width="auto" height="auto">
     Game Pesawat Tempur</p></a></font><br> <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg> </div> </div> </div>
 </div>
+	
 <br>
 <br>
+	
 <div align="center">
 <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&sa=U&ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" target="_blank"><img src="image/saweria.png" style="border-radius: 10%;" width="300em" height="60em" align="center"></a>
 <br>
 <br>
 <a href="https://trakteer.id/daffabot" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya" align="center"></a>
 </div>
+	
 <br>
+	
 <div class="comments" id="comments" style="background: #00FFFF; height: auto; width:auto;">
 <p align="center" style="font-size: 20px width: auto; height: auto;">Komentar</p>
 <div id="disqus_thread" style="margin-left: 6%; margin-right: 6%;"></div>
@@ -410,7 +442,9 @@ JAVA</p></font>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+	
 <br>
+	
 <div class="pg-footer">
               <footer class="footer">
                <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
@@ -515,9 +549,12 @@ JAVA</p></font>
                </div>
               </footer>
              </div>
+	
 </section>
+	
 	<a href="#" class="up-icon" style="color: black;"></a>
         <a href="https://bit.do/chatdaffabot" target="_blank" class="chatbot" style="color: black;"></a>
 <script id="dsq-count-scr" src="//daffabot-main.disqus.com/count.js" async></script>
+	
 </body>
 </html>
