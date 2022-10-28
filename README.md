@@ -1,5 +1,6 @@
 # Daffabot.github.io
 Blog Daffa
+```html
 <html>
 <!--
 author: Daffabot
@@ -1020,3 +1021,4 @@ document.querySelector('#cButton').addEventListener('click', copyMessage, false)
  
 </body>
 </html>
+```
