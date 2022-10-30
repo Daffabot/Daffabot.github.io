@@ -56,6 +56,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> 
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&amp;display=swap" rel="stylesheet"> 
 
+	<link rel="preload" as="image" href="image/profil.webp">
+	
   <style type="text/css">
     .fade, body, img {
 	    -webkit-animation-name: fade;
@@ -179,14 +181,14 @@ p {font-size: 1.7em;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: url(image/top.png) no-repeat;
+	background: url(image/top.webp) no-repeat;
 	bottom: 20px;
 	right: 10px;
 	text-decoration: none;
 	text-align: center;
 	line-height: 70px;
 	color: ;
-        img: url(image/top.png);
+        img: url(image/top.webp);
 }
 .fa-chevron-circle-up{font-size: 30px;line-height: 50px;color:;}
 #comments {display:;margin:10px 15px }
@@ -228,9 +230,13 @@ p {font-size: 1.7em;
   </noscript> 
   <!-- End Google Tag Manager (noscript) --> 
 
-  <section> 
-   <img src="image/profil.png" style="border-radius: 50%; box-shadow: 2px 2px 2px rgba(0,0,0,0.8); border: 1px dashed grey;" width="90em" align="left"> 
-   <h1>Daffa Ahmad Ibrahim</h1> 
+  <section>
+	  <picture>
+  <source srcset="image/profil.webp" type="image/webp">
+  <source srcset="image/profil.png" type="image/png">
+   <img src="image/profil.webp" style="border-radius: 50%; box-shadow: 2px 2px 2px rgba(0,0,0,0.8); border: 1px dashed grey;" width="90em" align="left" alt="profil"> 
+	  </picture>
+		  <h1>Daffa Ahmad Ibrahim</h1> 
    <h1>&#8595;</h1>
   </section>
 
@@ -319,8 +325,20 @@ p {font-size: 1.7em;
       <table align="center" border="0" width="auto" height="auto" style="font-size: 20px;"> 
        <tbody align="center"> 
         <tr align="center"> 
-         <td align="center"> <img src="image/html.png" align="center" style="width: 7.5em; height: 7.5em;"> </td> 
-         <td align="center"> <img src="image/css.png" align="center" style="width: 7.5em; height: 7.5em;"> </td> 
+         <td align="center"> 
+			   <picture>
+  <source srcset="image/html.webp" type="image/webp">
+  <source srcset="image/html.png" type="image/png">
+  <img src="image/html.webp" align="center" style="width: 7.5em; height: 7.5em;" loading="lazy" alt="HTML">
+			</picture>
+	</td> 
+         <td align="center"> 
+			   <picture>
+  <source srcset="image/css.webp" type="image/webp">
+  <source srcset="image/css.png" type="image/png">
+  <img src="image/css.webp" align="center" style="width: 7.5em; height: 7.5em;" loading="lazy" alt="CSS">
+			</picture>
+	</td> 
         </tr> 
         <tr align="center"> 
          <td align="center"><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><p align="center" width="auto" height="auto"> HTML</p></font> </td> 
@@ -330,8 +348,20 @@ p {font-size: 1.7em;
          <td colspan="2" align="center"></td> 
         </tr> 
         <tr align="center"> 
-         <td align="center"> <img src="image/javascript.png" align="center" style="width: 7.5em; height: 7.5em;"> </td> 
-         <td align="center"> <img src="image/java.png" align="center" style="width: 7.5em; height: 7.5em;"> </td> 
+         <td align="center">
+			   <picture>
+  <source srcset="image/javascript.webp" type="image/webp">
+  <source srcset="image/javascript.png" type="image/png">
+  <img src="image/javascript.webp" align="center" style="width: 7.5em; height: 7.5em; loading="lazy' alt="JavaScript">
+			</picture>
+	</td> 
+         <td align="center">
+			   <picture>
+  <source srcset="image/java.webp" type="image/webp">
+  <source srcset="image/java.png" type="image/png">
+  <img src="image/java.webp" align="center" style="width: 7.5em; height: 7.5em;" loading="lazy" alt="JAVA">
+			</picture>
+        </td> 
         </tr> 
         <tr align="center"> 
          <td align="center"><font size="3" style="font-family: 'VT323', monospace; text-align: center;"><p align="center" width="auto" height="auto"> JS</p></font> </td> 
@@ -355,7 +385,12 @@ p {font-size: 1.7em;
       <div class="case"> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/ular3d.github.io/" target="_blank" id="link"><img src="image/ular.png" border="2" align="center" alt="Game Ular 3D" style="width: 5em; height: 5em;"></a> 
+         <a href="https://daffabot.github.io/ular3d.github.io/" target="_blank" id="link">
+	<picture>
+  <source srcset="image/ular.webp" type="image/webp">
+  <source srcset="image/ular.png" type="image/png">
+	<img src="image/ular.webp" border="2" align="center" alt="Game Ular 3D" style="width: 5em; height: 5em;" loading="lazy"></a>
+	</picture>
         </div> 
         <div class="body-card"> 
          <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/ular3d.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Ular 3D</p></a></font> 
@@ -367,7 +402,12 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/russian-roulette.github.io/" target="_blank" id="link"><img src="image/roulette.png" border="2" align="center" alt="Russian Roulette" style="width: 5em; height: 5em;"></a> 
+         <a href="https://daffabot.github.io/russian-roulette.github.io/" target="_blank" id="link">
+	<picture>
+  <source srcset="image/roulette.webp" type="image/webp">
+  <source srcset="image/roulette.png" type="image/png">
+	<img src="image/roulette.webp" border="2" align="center" alt="Russian Roulette" style="width: 5em; height: 5em;" loading="lazy"></a>
+	</picture>
         </div> 
         <div class="body-card"> 
          <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/russian-roulette.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Russian Roulette</p></a></font> 
@@ -379,7 +419,12 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/tank-daffabot.github.io/" target="_blank" id="link"><img src="image/tank.png" border="2" align="center" alt="Game Tank" style="width: 5em; height: 5em;"></a> 
+         <a href="https://daffabot.github.io/tank-daffabot.github.io/" target="_blank" id="link">
+	<picture>
+  <source srcset="image/tank.webp" type="image/webp">
+  <source srcset="image/tank.png" type="image/png">
+	<img src="image/tank.webp" border="2" align="center" alt="Game Tank" style="width: 5em; height: 5em;" loading="lazy"></a>
+	</picture>
         </div> 
         <div class="body-card"> 
          <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/tank-daffabot.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Tank</p></a></font> 
@@ -391,7 +436,12 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/plane-daffabot.github.io/" target="_blank" id="link"><img src="image/pesawat.png" border="2" align="center" alt="Game Pesawat" style="width: 5em; height: 5em;"></a> 
+         <a href="https://daffabot.github.io/plane-daffabot.github.io/" target="_blank" id="link">
+	<picture>
+  <source srcset="image/pesawat.webp" type="image/webp">
+  <source srcset="image/pesawat.png" type="image/png">
+	<img src="image/pesawat.webp" border="2" align="center" alt="Game Pesawat" style="width: 5em; height: 5em;" loading="lazy"></a>
+        </picture>
         </div> 
         <div class="body-card"> 
          <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/plane-daffabot.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Pesawat Tempur</p></a></font> 
@@ -406,7 +456,13 @@ p {font-size: 1.7em;
      <br> 
      <br> 
      <div align="center"> 
-      <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&amp;sa=U&amp;ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&amp;usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" target="_blank"><img src="image/saweria.png" style="border-radius: 10%;" width="300em" height="60em" align="center"></a> 
+      <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&amp;sa=U&amp;ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&amp;usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" target="_blank">
+      <picture>
+  <source srcset="image/saweria.webp" type="image/webp">
+  <source srcset="image/saweria.png" type="image/png">
+      <img src="image/saweria.webp" style="border-radius: 10%;" width="300em" height="60em" align="center" alt="Donation Saweria">
+      </picture>
+	</a>
       <br> 
       <br> 
       <a href="https://trakteer.id/daffabot" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya" align="center"></a> 
