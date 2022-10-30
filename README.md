@@ -35,5 +35,5 @@ Blog Daffa Ahmad Ibrahim
 Belajar tentang pemograman secara otodidak dari kelas 6 sd hingga mahir dalam HTML, CSS dan Javascript. Kini saya sedang berusaha mengembangkan project web dan game juga programming back-end developer.		
 Date: <b>[Level 5 Access]</b></p></blockquote></div></div></div><br>
 </div>
-<iframe src='https://gfycat.com/ifr/ThoroughElatedHoneybee' frameborder='0' scrolling='no' allowfullscreen width='640' height='412'></iframe><p> <a href="https://gfycat.com/thoroughelatedhoneybee">via Gfycat</a></p>
 </div>
+<iframe src='https://gfycat.com/ifr/ThoroughElatedHoneybee' frameborder='0' scrolling='no' allowfullscreen width='640' height='412'></iframe><p> <a href="https://gfycat.com/thoroughelatedhoneybee">via Gfycat</a></p>
