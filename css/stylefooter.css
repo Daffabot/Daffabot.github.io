@@ -1,5 +1,5 @@
    .pg-footer {  
-    font-family: "Khand", sans-serif;  
+    font-family: 'VT323', monospace;
    }  
    .footer {  
      background-color: #0ea5ca;  
@@ -248,4 +248,4 @@
     .footer-content-column {  
       width: 24.99%;  
     }  
-   } 
+   }
