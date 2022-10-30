@@ -36,4 +36,4 @@ Belajar tentang pemograman secara otodidak dari kelas 6 sd hingga mahir dalam HT
 Date: <b>[Level 5 Access]</b></p></blockquote></div></div></div><br>
 </div>
 </div>
-<iframe src='https://gfycat.com/ifr/ThoroughElatedHoneybee' frameborder='0' scrolling='no' allowfullscreen width='640' height='412'></iframe><p> <a href="https://gfycat.com/thoroughelatedhoneybee">via Gfycat</a></p>
+[![Watch the video](https://i.imgur.com/Vi7pHi4MS-I.png)](https://m.youtu.be/Vi7pHi4MS-I)
