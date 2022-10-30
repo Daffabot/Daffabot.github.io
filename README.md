@@ -33,8 +33,9 @@ Blog Daffa Ahmad Ibrahim
 <img src="image/profil.png" border="1">
 <p><b>[Language Indonesia]</b>
 Belajar tentang pemograman secara otodidak dari kelas 6 sd hingga mahir dalam HTML, CSS dan Javascript. Kini saya sedang berusaha mengembangkan project web dan game juga programming back-end developer.		
-Date: <b>[Level 5 Access]</b></p></blockquote></div></div></div><br>
-</div>
-</div>
+Date: <b>[Level 5 Access]</b></p>
 [![Watch the video](https://img.youtube.com/vi/Vi7pHi4MS-I/maxresdefault.jpg)](https://youtu.be/Vi7pHi4MS-I)
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+</blockquote></div></div></div><br>
+</div>
+</div>
