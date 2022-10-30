@@ -36,4 +36,4 @@ Belajar tentang pemograman secara otodidak dari kelas 6 sd hingga mahir dalam HT
 Date: <b>[Level 5 Access]</b></p></blockquote></div></div></div><br>
 </div>
 </div>
-[![Watch the video](https://i.imgur.com/Vi7pHi4MS-I.png)](https://m.youtu.be/Vi7pHi4MS-I)
+[![Watch the video](https://img.youtube.com/vi/Vi7pHi4MS-I.png)](https://youtu.be/Vi7pHi4MS-I)
