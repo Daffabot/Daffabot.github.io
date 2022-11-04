@@ -216,6 +216,12 @@ p {font-size: 1.7em;
 .case { padding: 0; margin: auto; display: grid; grid-template-columns: repeat(8,1fr); margin: 5px 15px; gap:20px; position: relative; } .card { width: 100%; height: auto; grid-column: span 4; margin: 10px 0; border-radius: 15px; position: relative; box-shadow: 0 10px 10px rgba(0,0,0,.1); } .head-card img { width: 100%; height: 200px; object-fit: cover; } .body-card { padding: 10px 15px; } .body-card h1 { margin: 0; } .body-card svg { width: 31px; position: absolute; bottom: 7px; right: 20px; } @media screen and (min-width: 550px) { .card { grid-column: span 4; } @media screen and (min-width: 760px) { .card { width: 350px; margin: 0 10px; } @media screen and (min-width: 960px {}
 </style>
 
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+  </script>
+  <script src="picturefill.js" async></script>
+
   <link rel="stylesheet" href="css/style1.css"> 
   <link rel="stylesheet" href="css/stylefooter.css"> 
 
