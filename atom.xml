@@ -1,0 +1,85 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>
+<![CDATA[ Portofolio Daffa Ahmad Ibrahim ]]>
+</title>
+<description>
+<![CDATA[ Daffa Ahmad Ibrahim Website ]]>
+</description>
+<link>https://daffabot.github.io</link>
+<image>
+<url>https://daffabot.github.io/main/apple-icon-57x57.png</url>
+<title>Portofolio Daffa Ahmad Ibrahim</title>
+<link>https://daffabot.github.io</link>
+</image>
+<generator>https://rss.app</generator>
+<lastBuildDate>Sat, 12 Nov 2022 19:28:36 GMT</lastBuildDate>
+<atom:link href="https://rss.app/feeds/HV4dOsLjB1MUtjrm.xml" rel="self" type="application/rss+xml"/>
+<language>
+<![CDATA[ en ]]>
+</language>
+<item>
+<title>
+<![CDATA[ Dokumentasi OSIS SMPN 1 Kalijati ]]>
+</title>
+<description>
+<![CDATA[ <div>Dokumentasi OSIS SMPN 1 Kalijati Periode 2022-2023</div> ]]>
+</description>
+<link>https://daffabot.github.io/dokumentasi-osis.github.io/</link>
+<guid isPermaLink="false">90f671bf3d9b430760cbb75e39c3cfb5</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ Jobdesk Kepengurusan OSIS Periode 2022/2023 ]]>
+</title>
+<link>https://daffabot.github.io/jobdesk-kepengurusan-osis.github.io/</link>
+<guid isPermaLink="false">17a555ceee0338235a3a369a060ede13</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ game ular 3d ]]>
+</title>
+<link>https://daffabot.github.io/ular3d.github.io/</link>
+<guid isPermaLink="false">032929eca6eba05d67ff9a3890c92fe1</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ Russian Roulette by Daffabot ]]>
+</title>
+<link>https://daffabot.github.io/russian-roulette.github.io/</link>
+<guid isPermaLink="false">8613ff3c01f4cdd6f8e7af6c05ab7059</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ Tank Daffabot ]]>
+</title>
+<link>https://daffabot.github.io/tank-daffabot.github.io/</link>
+<guid isPermaLink="false">794cff29910184e04cf32016cd86064c</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ Plane-Daffabot ]]>
+</title>
+<link>https://daffabot.github.io/plane-daffabot.github.io/</link>
+<guid isPermaLink="false">d5745fc5eed601c0c8d88ed6460d8050</guid>
+<dc:creator>
+<![CDATA[ daffabot.github.io ]]>
+</dc:creator>
+</item>
+</channel>
+</rss>
