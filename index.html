@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
-<html xmlns=”http://www.w3.org/1999/xhtml”>
+<!DOCTYPE html>
+<html lang="id">
 <head> 
 
 <!-- Google tag (gtag.js) -->
@@ -39,7 +39,6 @@
   <link href="/main/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"> 
   <link href="/main/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"> 
   <link href="/main/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"> 
-  <link href="/main/apple-icon-114x114.png" rel="apple-touch-icon" sizes="144x144"> 
   <link href="/main/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"> 
   <link href="/main/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"> 
   <link href="/main/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"> 
@@ -204,12 +203,10 @@ p {font-size: 1.7em;
 	text-decoration: none;
 	text-align: center;
 	line-height: 70px;
-	color: ;
-        img: url(image/top.webp);
 }
-.fa-chevron-circle-up{font-size: 30px;line-height: 50px;color:;}
-#comments {display:;margin:10px 15px }
-.post-comment-link { visibility:; }
+.fa-chevron-circle-up{font-size: 30px;line-height: 50px;}
+#comments {display: flexbox; margin:10px 15px }
+.post-comment-link { visibility: visible; }
 #link { color: black;
 }
 .chatbot{
@@ -224,12 +221,55 @@ p {font-size: 1.7em;
 	text-align: center;
 	line-height: 70px;
         display: block;
-	color: ;
-        img: url(image/chatbot.gif);
         box-shadow: 2px 2px 2px 2px rgba(0,0,0,2);
         border: 1px grey;
 }
-.case { padding: 0; margin: auto; display: grid; grid-template-columns: repeat(8,1fr); margin: 5px 15px; gap:20px; position: relative; } .card { width: 100%; height: auto; grid-column: span 4; margin: 10px 0; border-radius: 15px; position: relative; box-shadow: 0 10px 10px rgba(0,0,0,.1); } .head-card img { width: 100%; height: 200px; object-fit: cover; } .body-card { padding: 10px 15px; } .body-card h1 { margin: 0; } .body-card svg { width: 31px; position: absolute; bottom: 7px; right: 20px; } @media screen and (min-width: 550px) { .card { grid-column: span 4; } @media screen and (min-width: 760px) { .card { width: 350px; margin: 10 -20px; } @media screen and (min-width: 960px {}
+.case {
+  padding: 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  margin: 5px 15px;
+  gap:20px;
+  position: relative;
+}
+.card {
+  width: 100%;
+  height: auto;
+  grid-column: span 4;
+  margin: 10px 0;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+.head-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.body-card {
+  padding: 10px 15px;
+}
+.body-card h1 {
+  margin: 0;
+}
+.body-card svg {
+  width: 31px;
+  position: absolute;
+  bottom: 7px; right: 20px;
+}
+@media screen and (min-width: 550px) {
+  .card {
+    grid-column: span 4;
+  }
+}
+  @media screen and (min-width: 760px) {
+    .card {
+      width: 350px;
+      margin: 10 -20px;
+    }
+  }
+    @media screen and (min-width: 960px) {}
 </style>
 
   <script>
@@ -263,7 +303,7 @@ p {font-size: 1.7em;
    <div class="container reveal"> 
     <div class="text-container"> 
      <div class="text-box"> 
-      <p align="center" style="font-size: 30px height: auto;">Objective</p> 
+      <p align="center" style="font-size: 30px; height: auto;">Objective</p> 
       <font size="2" style="margin-left: 2%;"> <br> <p align="center" height="auto"> Saya adalah seseorang yang memiliki ketertarikan dengan sains, matematika dan pemrograman full stack developer. Menjadi seseorang yang berkopeten pada ketertarikan yang saya sebutkan di atas adalah impian saya. Saat ini saya lebih banyak bekerja dalam dunia pemrograman dengan tidak mengesampingkan ketertarikan saya yang lain untuk terus mempelajarinya. </p> </font> 
      </div>
 <br> 
@@ -279,7 +319,7 @@ p {font-size: 1.7em;
      </div> 
      <br> 
      <div class="text-box"> 
-      <p align="center" style="margin-left: 2%; font-size: 30px height: auto;">Awards</p> 
+      <p align="center" style="margin-left: 2%; font-size: 30px; height: auto;">Awards</p> 
       <br> 
       <font style="font-size: 20px;"><p>-2015</p></font> 
       <font size="3"><p>Juara 1 Calistung (Baca Tulis Hitung) Tingkat SD Kelas 1 Se-Kecamatan</p></font> 
@@ -332,11 +372,11 @@ p {font-size: 1.7em;
       <font size="2" style="margin-left: 2%;"><p> 5.Setiap kelas wajib mempunyai struktur organisasi kelas yang lengkap. </p></font> 
       <font size="2" style="margin-left: 2%;"><p> 6.Melakukan kegiatan literasi di lapangan dan pembentukan MADING setiap hari rabu. </p></font> 
       <br> 
-      <a href="https://daffabot.github.io/dokumentasi-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Dokumentasi OSIS</p></a> 
-      <a href="https://daffabot.github.io/jobdesk-kepengurusan-osis.github.io/" target="_blank" style="margin-left: 2%;"><p>Jobdesk Kepengurusan OSIS</p></a> 
+      <a href="https://daffabot.github.io/dokumentasi-osis.github.io/" rel="noopener noreferrer" target="_blank" style="margin-left: 2%;"><p>Dokumentasi OSIS</p></a> 
+      <a href="https://daffabot.github.io/jobdesk-kepengurusan-osis.github.io/" rel="noopener noreferrer" target="_blank" style="margin-left: 2%;"><p>Jobdesk Kepengurusan OSIS</p></a> 
      </div> 
      <br> 
-     <div class="text-box" style="text-align: center; table-align: center;"> 
+     <div class="text-box" style="text-align: center; align-items: center;"> 
       <p style="font-size: 30px;">Software Skills</p> 
       <br> 
       <table align="center" border="0" width="100%" height="auto" style="font-size: 20px;"> 
@@ -369,7 +409,7 @@ p {font-size: 1.7em;
 			   <picture>
   <source srcset="image/javascript.webp" type="image/webp">
   <source srcset="image/javascript.png" type="image/png">
-  <img src="image/javascript.webp" align="center" style="width: 7.5em; height: 7.5em; loading="lazy' alt="JavaScript">
+  <img src="image/javascript.webp" align="center" style="width: 7.5em; height: 7.5em;" loading="lazy" alt="JavaScript">
 			</picture>
 	</td> 
          <td align="center">
@@ -402,7 +442,7 @@ p {font-size: 1.7em;
       <div class="case"> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/ular3d.github.io/" target="_blank" id="link">
+         <a href="https://daffabot.github.io/ular3d.github.io/" rel="noopener noreferrer" target="_blank" id="link">
 	<picture>
   <source srcset="image/ular.webp" type="image/webp">
   <source srcset="image/ular.png" type="image/png">
@@ -410,7 +450,7 @@ p {font-size: 1.7em;
 	</picture>
         </div> 
         <div class="body-card"> 
-         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/ular3d.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Ular 3D</p></a></font> 
+         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/ular3d.github.io/" rel="noopener noreferrer" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Ular 3D</p></a></font> 
          <br> 
          <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path> 
@@ -419,7 +459,7 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/russian-roulette.github.io/" target="_blank" id="link">
+         <a href="https://daffabot.github.io/russian-roulette.github.io/" rel="noopener noreferrer" target="_blank" id="link">
 	<picture>
   <source srcset="image/roulette.webp" type="image/webp">
   <source srcset="image/roulette.png" type="image/png">
@@ -427,7 +467,7 @@ p {font-size: 1.7em;
 	</picture>
         </div> 
         <div class="body-card"> 
-         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/russian-roulette.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Russian Roulette</p></a></font> 
+         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/russian-roulette.github.io/" rel="noopener noreferrer" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Russian Roulette</p></a></font> 
          <br> 
          <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path> 
@@ -436,7 +476,7 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/tank-daffabot.github.io/" target="_blank" id="link">
+         <a href="https://daffabot.github.io/tank-daffabot.github.io/" rel="noopener noreferrer" target="_blank" id="link">
 	<picture>
   <source srcset="image/tank.webp" type="image/webp">
   <source srcset="image/tank.png" type="image/png">
@@ -444,7 +484,7 @@ p {font-size: 1.7em;
 	</picture>
         </div> 
         <div class="body-card"> 
-         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/tank-daffabot.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Tank</p></a></font> 
+         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/tank-daffabot.github.io/" rel="noopener noreferrer" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Tank</p></a></font> 
          <br> 
          <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path> 
@@ -453,7 +493,7 @@ p {font-size: 1.7em;
        </div> 
        <div class="card"> 
         <div class="head-card"> 
-         <a href="https://daffabot.github.io/plane-daffabot.github.io/" target="_blank" id="link">
+         <a href="https://daffabot.github.io/plane-daffabot.github.io/" rel="noopener noreferrer" target="_blank" id="link">
 	<picture>
   <source srcset="image/pesawat.webp" type="image/webp">
   <source srcset="image/pesawat.png" type="image/png">
@@ -461,7 +501,7 @@ p {font-size: 1.7em;
         </picture>
         </div> 
         <div class="body-card"> 
-         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/plane-daffabot.github.io/" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Pesawat Tempur</p></a></font> 
+         <font size="3" style="font-family: 'VT323', monospace; text-align: center;"><a href="https://daffabot.github.io/plane-daffabot.github.io/" rel="noopener noreferrer" target="_blank" id="link"><p align="center" width="auto" height="auto"> Game Pesawat Tempur</p></a></font> 
          <br> 
          <svg class="w-6 h-6" fill="none" stroke="#303030" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path> 
@@ -473,7 +513,7 @@ p {font-size: 1.7em;
      <br> 
      <br> 
      <div align="center"> 
-      <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&amp;sa=U&amp;ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&amp;usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" target="_blank">
+      <a href="https://www.google.com/url?q=https://saweria.co/Daffabot&amp;sa=U&amp;ved=2ahUKEwjgv_KP5bv2AhUyILcAHbpNBnsQFnoECAcQAg&amp;usg=AOvVaw1bxVKb7QrGjUsh8gFv-RtC" rel="noopener noreferrer" target="_blank">
       <picture>
   <source srcset="image/saweria.webp" type="image/webp">
   <source srcset="image/saweria.png" type="image/png">
@@ -482,11 +522,11 @@ p {font-size: 1.7em;
 	</a>
       <br> 
       <br> 
-      <a href="https://trakteer.id/daffabot" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya" align="center" loading="lazy"></a>
+      <a href="https://trakteer.id/daffabot" rel="noopener noreferrer" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-4.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya" align="center" loading="lazy"></a>
      </div> 
      <br> 
      <div class="text-box" id="comments" style="background: #00FFFF; height: auto; width:auto;"> 
-      <p align="center" style="font-size: 20px width: auto; height: auto;">Komentar</p> 
+      <p align="center" style="font-size: 20px; width: auto; height: auto;">Komentar</p> 
       <div id="disqus_thread" style="margin-left: 6%; margin-right: 6%;"><iframe id="dsq-app9084" name="dsq-app9084" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=daffabot-main&amp;t_u=https%3A%2F%2Fdaffabot.github.io%2F&amp;t_d=Daffa%20Ahmad%20Ibrahim&amp;t_t=Daffa%20Ahmad%20Ibrahim&amp;s_o=default#version=d694fa898ba2d346dbb02421bfd60095" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 1932px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div> 
       <script>
     /**
@@ -588,8 +628,8 @@ p {font-size: 1.7em;
    </div> 
   </section>  
 
-  <a href="#" class="up-icon" style="color: black;"></a> 
-  <a href="https://daffabot.github.io/chatbot.github.io/" target="_blank" class="chatbot" style="color: black;"></a> 
+  <a href="#" class="up-icon" style="color: black;" title="up"></a> 
+  <a href="https://daffabot.github.io/chatbot.github.io/" rel="noopener noreferrer" target="_blank" title="chatbot" class="chatbot" style="color: black;"></a> 
 
   <script type="text/javascript">
 function reveal() {
