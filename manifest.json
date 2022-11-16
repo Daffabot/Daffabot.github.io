@@ -1,0 +1,21 @@
+{
+ "name": "Daffabot",
+ "short_name": "Daffa",
+ "description": "Website Portofolio Daffa Ahmad Ibrahim",
+ "lang": "id",
+ "dir": "ltr",
+ "theme_color": "#20DFDF",
+ "start_url": ".",
+ "background_color": "#FFFFF",
+ "display": "standalone",
+ "orientation": "portrait-primary",
+ "icons": [{
+   "src": "/main/apple-icon-72x72.png",
+   "sizes": "72x72",
+   "type": "image/png"
+  }, {
+   "src": "/main/android-icon-192x192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  }]
+}
