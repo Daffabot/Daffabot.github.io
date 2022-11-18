@@ -5,7 +5,7 @@
  "lang": "id",
  "dir": "ltr",
  "theme_color": "#20DFDF",
- "start_url": "/Daffabot.github.io",
+ "start_url": "/index.html",
  "background_color": "#fff",
  "display": "fullscreen",
  "orientation": "portrait-primary",
