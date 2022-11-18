@@ -1,5 +1,6 @@
 const CACHE_NAME = 'SW-001';
 const toCache = [
+    '/Daffabot.github.io',
     '/',
     'manifest.json',
     'register.js',
