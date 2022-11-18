@@ -6,7 +6,7 @@
  "dir": "ltr",
  "theme_color": "#20DFDF",
  "start_url": "/codeigniter/",
- "background_color": "#fff,
+ "background_color": "#fff",
  "display": "fullscreen",
  "orientation": "portrait-primary",
  "icons": [{
