@@ -1,19 +1,21 @@
-// Installing service worker
-const CACHE_NAME  = 'pwa-daffabot';
+const CACHE_NAME = 'SW-001';
+const toCache = [
+    '/',
+    'manifest.json',
+    'register.js',
+    'img/favicon.ico',
+];
 
-/* Add relative URL of all the static content you want to store in
- * cache storage (this will help us use our app offline)*/
-let resourcesToCache = ["index.html", "manifest.json"];
+self.addEventListener('install', function(event) {
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+        .then(function(cache) {
+            return cache.addAll(toCache)
+        })
+        .then(self.skipWaiting())
+    )
+})
 
-self.addEventListener("install", e=>{
-    e.waitUntil(
-        caches.open(CACHE_NAME).then(cache =>{
-            return cache.addAll(resourcesToCache);
-        }).then(self.skipWaiting())
-    );
-});
-
-// Cache and return requests
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         fetch(event.request)
@@ -26,18 +28,17 @@ self.addEventListener('fetch', function(event) {
     )
 })
 
-// Update a service worker
-const cacheWhitelist = [ CACHE_NAME ];
-self.addEventListener('activate', event => {
+self.addEventListener('activate', function(event) {
     event.waitUntil(
-      caches.keys().then(cacheNames => {
-        return Promise.all(
-          cacheNames.map(cacheName => {
-            if (cacheWhitelist.indexOf(cacheName) === -1) {
-              return caches.delete(cacheName);
+        caches.keys()
+        .then((keyList) => {
+            return Promise.all(keyList.map((key) => {
+            if (key !== CACHE_NAME) {
+                console.log('[ServiceWorker] Hapus cache lama', key)
+                return caches.delete(key)
             }
-          })
-        );
-      }).then(() => self.clients.claim())
-    );
-});
+            }))
+        })
+        .then(() => self.clients.claim())
+    )
+})
