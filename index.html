@@ -82,6 +82,61 @@
 	  @keyframes fade {
 		  from {opacity: 0}
 		  to {opacity: 1}}
+    @keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+    }
+    #close {
+    background-color: rgba(64, 68, 65, 0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    animation:autopopup 3.5s;
+    }
+    #close:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+    }
+    
+    @media (min-width: 768px){
+    .container-popup {
+    width:30%;
+    }
+    }
+    @media (max-width: 767px){
+    .container-popup {
+    width:30%;
+    }
+    }
+    .container-popup {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
+    padding: 4px 3px;
+    background-color: #20DFDF;
+    color: #333;
+    border-radius: 8px;
+    }
+    .container-popup img {
+    width: 100%;
+    }
+    .close {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #C21807;
+    padding:7px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    color:#fff;
+    }
     * {
       margin: 0;
       padding: 0;
@@ -225,26 +280,6 @@ p {font-size: 1.7em;
 #comments {display: flexbox; margin:10px 15px }
 .post-comment-link { visibility: visible; }
 #link { color: black;
-}
-.chatbot{
-        display: none;
-	position: fixed;
-        cursor: pointer;
-	width: 100px;
-	height: 100px;
-	border-radius: 20%;
-	background: url(image/chatbot.gif) no-repeat;
-	bottom: 20;
-	left: 10;
-	text-decoration: none;
-	text-align: center;
-	line-height: 70px;
-        box-shadow: 2px 2px 2px 2px rgba(0,0,0,2);
-        border: 1px grey;
-	img: url(image/chatbot.gif);
-}
-.chatbot:hover{
-        background-color: #555;
 }
 .case {
   padding: 0;
@@ -651,7 +686,19 @@ p {font-size: 1.7em;
   </section>  
 
   <button onclick="topFunction()" class="up-icon" id="myBtn" title="up"><a href="#" class="up-icon" style="color: black;" title="up"></a></button>
-  <button onclick="topFunction()" class="chatbot" id="myBtn" title="chatbot"><a href="https://daffabot.github.io/chatbot.github.io/" rel="noopener noreferrer" target="_blank" title="chatbot" class="chatbot" style="color: black;"></a></button>
+  <div id="close">
+        <div class="container-popup">
+            <form action="#" method="post" class="popup-form">
+              <picture>
+              <source srcset="image/chatbot.gif" type="image/webp">
+              <img src="image/chatbot.gif" align="center" style="width: 7.5em; height: 7.5em;" alt="Chatbot">
+              </picture>
+              <h2>Chatbot</h2>
+              <a href="https://daffabot.github.io/chatbot.github.io/" rel="noopener noreferrer" target="_blank">Say hello!</a>
+            </form>
+            <a class="close" href="#close">close</a>
+        </div>
+    </div>
 
   <script type="text/javascript">
 function reveal() {
