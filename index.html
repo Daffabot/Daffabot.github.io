@@ -71,7 +71,38 @@
 	<link as="image" rel="image prefetch" href="./image/chatbot.gif" type="image/gif" crossorigin>
 	<link as="image" rel="image prefetch" href="./image/top.webp" type="image/webp" crossorigin>
 	
-<link rel="stylesheet" href="./css/index.css"> 
+<link rel="stylesheet" href="./css/index.css">
+<style type="text/css">
+	#bullets {
+     font-family: 'VT323', monospace;
+}
+@font-face {
+     font-family: "VT323";
+     src: url('VT323-Regular.ttf');
+}
+.digital {
+     font-family: "VT323";
+}
+
+.up-icon {
+        display: none;
+	position: fixed;
+        cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url(./image/top.webp) no-repeat;
+	bottom: 20px;
+	right: 10px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	img: url(./image/top.webp);
+}
+.up-icon:hover {
+        background-color: #555;
+}
+</style>
 	
   <script>
     // Picture element HTML5 shiv
