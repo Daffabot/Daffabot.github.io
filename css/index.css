@@ -193,6 +193,37 @@ a:hover {
 a:active {
      color: blue;
 }
+#bullets {
+     font-family: 'VT323', monospace;
+}
+@font-face {
+     font-family: "VT323";
+     src: url('../VT323-Regular.ttf');
+}
+.digital {
+     font-family: "VT323";
+}
+html {
+     scroll-behavior: smooth;
+}
+.up-icon {
+        display: none;
+	position: fixed;
+        cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url(../image/top.webp) no-repeat;
+	bottom: 20px;
+	right: 10px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	img: url(../image/top.webp);
+}
+.up-icon:hover {
+        background-color: #555;
+}
 .fa-chevron-circle-up {
         font-size: 30px;
         line-height: 50px;
