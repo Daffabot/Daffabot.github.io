@@ -1,5 +1,5 @@
 # Daffabot.github.io
-Blog Daffa Ahmad Ibrahim
+Website Daffa Ahmad Ibrahim
 <body>
 <hr style="clear: both;">
 <div style="text-align: center;">
