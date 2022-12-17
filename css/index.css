@@ -51,8 +51,8 @@
     border-radius: 8px;
     }
     .container-popup img {
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     border-radius: 15%;
     }
     .close {
@@ -123,16 +123,16 @@
 			align: left;
 		}
 		.imgtbl img {
-			width: 7em;
-			height: 7em;
+			width: 4em;
+			height: 4em;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
 			text-align: center;
 		}
 		.imgcard {
-			width: 3em;
-			height: 3em;
+			width: 2em;
+			height: 2em;
 		}
 		.Saweria {
 			border-radius: 10%;
