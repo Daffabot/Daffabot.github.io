@@ -231,7 +231,10 @@ html {
 
 #comments {
         display: flexbox;
-        margin: 10px 15px
+        margin: 10px 15px;
+	background: #00FFFF; 
+	height: auto; 
+	width: auto;
 }
 .post-comment-link {
         visibility: visible;
