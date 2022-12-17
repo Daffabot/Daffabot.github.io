@@ -123,8 +123,8 @@
 			align: left;
 		}
 		.imgtbl {
-			width: 7.5em;
-			height: 7.5em;
+			width: 3em;
+			height: 3em;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
@@ -146,27 +146,27 @@
 			height: 7.5em;
 		}
 
-section{
+section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-section:nth-child(1){
+#satu {
   color: #e0ffff;
   flex-direction: column;
   }
-section:nth-child(2){
+#dua {
   color: #42455a;
   background: #e0ffff;
   flex-direction: column;
 } 
-section:nth-child(3){
+#tiga {
   color: #e0ffff;
   flex-direction: column;
 }
-section:nth-child(4){
+#empat {
   color: #42455a;
   background: #e0ffff;
   flex-direction: column;
