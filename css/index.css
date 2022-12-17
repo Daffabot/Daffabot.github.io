@@ -95,13 +95,6 @@
 	border-color: #e0ffff;
 }
 
-		.Ssatu {
-			color: #42455a; 
-			background: #e0ffff;
-		}
-		.Sdua {
-			color: #e0ffff;
-		}
 		.Psatu {
 			font-size: 30px;
 			height: auto;
@@ -128,10 +121,6 @@
 			font-size: 1em; 
 			margin-left: 4%;
 			align: left;
-		}
-		.text-box {
-			text-align: center;
-			align-items: center;
 		}
 		.imgtbl {
 			width: 7.5em;
