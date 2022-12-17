@@ -126,6 +126,7 @@
 		.Fsubjudul {
 			font-size: 1em; 
 			margin-left: 4%;
+			align: left;
 		}
 		.text-box {
 			text-align: center;
