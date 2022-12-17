@@ -94,6 +94,64 @@
 	border-color: #e0ffff;
 }
 
+		.Ssatu {
+			color: #42455a; 
+			background: #e0ffff;
+		}
+		.Sdua {
+			color: #e0ffff;
+		}
+		.Psatu {
+			font-size: 30px;
+			height: auto;
+		}
+		.Profil {
+			border-radius: 50%;
+			box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+			border: 1px dashed grey;
+		}
+		.Fsatu {
+			margin-left: 2%;
+		}
+		.Fdua {
+			font-size: 20px;
+		}
+		.Pfoot {
+			font-size: 23px;
+			margin-left: 2%;
+		}
+		.Fsubjudul {
+			font-size: 1em; 
+			margin-left: 4%;
+		}
+		.text-box {
+			text-align: center;
+			align-items: center;
+		}
+		.imgtbl {
+			width: 7.5em;
+			height: 7.5em;
+		}
+		.Ffamily {
+			font-family: 'VT323', monospace;
+			text-align: center;
+		}
+		.imgcard {
+			width: 5em;
+			height: 5em;
+		}
+		.Saweria {
+			border-radius: 10%;
+		}
+		.disqustret {
+			margin-left: 6%; 
+			margin-right: 6%;
+		}
+		.imgchatbot {
+			width: 7.5em;
+			height: 7.5em;
+		}
+
 section{
   min-height: 100vh;
   display: flex;
@@ -220,6 +278,7 @@ html {
 	text-align: center;
 	line-height: 70px;
 	img: url(../image/top.webp);
+	color: black;
 }
 .up-icon:hover {
         background-color: #555;
