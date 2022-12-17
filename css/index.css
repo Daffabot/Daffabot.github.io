@@ -112,6 +112,7 @@
 		}
 		.Fsatu {
 			margin-left: 2%;
+			align: left;
 		}
 		.Fdua {
 			font-size: 20px;
@@ -120,6 +121,7 @@
 		.Pfoot {
 			font-size: 23px;
 			margin-left: 2%;
+			align: left;
 		}
 		.Fsubjudul {
 			font-size: 1em; 
