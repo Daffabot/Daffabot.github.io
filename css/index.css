@@ -122,9 +122,9 @@
 			margin-left: 4%;
 			align: left;
 		}
-		.imgtbl img {
-			width: 4em;
-			height: 4em;
+		.imgtbl {
+			width: 3em;
+			height: 3em;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
