@@ -123,16 +123,16 @@
 			align: left;
 		}
 		.imgtbl {
-			width: 3em;
-			height: 3em;
+			width: 5em;
+			height: 5em;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
 			text-align: center;
 		}
 		.imgcard {
-			width: 5em;
-			height: 5em;
+			width: 4em;
+			height: 4em;
 		}
 		.Saweria {
 			border-radius: 10%;
@@ -142,8 +142,8 @@
 			margin-right: 6%;
 		}
 		.imgchatbot {
-			width: 7.5em;
-			height: 7.5em;
+			width: 3em;
+			height: 3em;
 		}
 
 section {
