@@ -32,12 +32,12 @@
     }
     @media (min-width: 768px){
     .container-popup {
-    width:30%;
+    width: 30%;
     }
     }
     @media (max-width: 767px){
     .container-popup {
-    width:30%;
+    width: 30%;
     }
     }
     .container-popup {
@@ -123,8 +123,8 @@
 			align: left;
 		}
 		.imgtbl {
-			width: 5em;
-			height: 5em;
+			width: 25%;
+			height: 25%;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
