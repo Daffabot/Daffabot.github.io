@@ -54,7 +54,7 @@
     width: 20%;
     height: 20%;
     border-radius: 15%;
-    object-fit: fill;
+    object-fit: scale-down;
     }
     .close {
     position: absolute;
@@ -124,8 +124,8 @@
 			align: left;
 		}
 		.imgtbl {
-			width: 90%;
-			height: 90%;
+			width: 80%;
+			height: 80%;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
@@ -134,7 +134,7 @@
 		.imgcard {
 			width: 2em;
 			height: 2em;
-                        object-fit: fill;
+                        object-fit: contain;
 		}
 		.Saweria {
 			border-radius: 10%;
