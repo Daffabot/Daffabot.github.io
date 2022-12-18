@@ -54,7 +54,7 @@
     width: 20%;
     height: 20%;
     border-radius: 15%;
-    object-fit: contain;
+    object-fit: fill;
     }
     .close {
     position: absolute;
@@ -124,18 +124,14 @@
 			align: left;
 		}
 		.imgtbl {
-			width: 80%;
-			height: 80%;
+			width: 50%;
+			height: 50%;
 		        object-fit: scale-down;
 		}
 		.Ffamily {
 			font-family: 'VT323', monospace;
 			text-align: center;
 		}
-		.imgcard {
-			width: 2em;
-			height: 2em;
-                        object-fit: scale-down;
 		}
 		.Saweria {
 			border-radius: 10%;
@@ -322,7 +318,7 @@ html {
 .head-card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .body-card {
   padding: 10px 15px;
