@@ -140,6 +140,16 @@
 			margin-left: 6%; 
 			margin-right: 6%;
 		}
+                #footer-action {
+			float: left;
+                }
+                #footer-action-description {
+			font-size: 1.3em;
+                }
+                #wse-buttons-preview {
+			border: 0px;
+			height: 40px;
+                }
 
 section {
   min-height: 100vh;
