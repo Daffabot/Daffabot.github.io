@@ -1,5 +1,7 @@
 # Daffabot.github.io
 Website Daffa Ahmad Ibrahim
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W0HURDT)
 <body>
 <hr style="clear: both;">
 <div style="text-align: center;">
@@ -7,13 +9,13 @@ Website Daffa Ahmad Ibrahim
 <br>
 <nav class="biru">
     <div class="nav-item">
-    <a class="nav-link" href="index.html">Beranda</a>
+    <a class="nav-link" href="index.html">Home</a>
     </div>
     <div class="nav-item">
-    <a class="nav-link active" href="README.md">Tentang</a>
+    <a class="nav-link active" href="README.md">About</a>
     </div>
     <div class="nav-item">
-    <a class="nav-link" href="kontak.html">Kontak</a>
+    <a class="nav-link" href="kontak.html">Contact</a>
     </div>
     </nav>
     <br>
