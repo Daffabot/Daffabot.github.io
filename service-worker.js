@@ -5,7 +5,7 @@ const cacheAssets = [
   "./index.html",
   "./css/stylefooter.css",
   "./css/style1.css",
-  "./css/styles.css",
+  "./css/index.css",
   "./manifest.json",
   "./register.js",
   "./img/favicon.ico",
