@@ -8,7 +8,7 @@ const cacheAssets = [
   "./css/index.css",
   "./manifest.json",
   "./register.js",
-  "./img/favicon.ico",
+  "./image/favicon.ico",
 ];
 
 // memanggil event install
