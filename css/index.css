@@ -255,7 +255,7 @@ a:active {
 }
 @font-face {
      font-family: "VT323";
-     src: url('../VT323-Regular.ttf');
+     src: url('../font/VT323-Regular.ttf');
 }
 .digital {
      font-family: "VT323";
