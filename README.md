@@ -2,27 +2,12 @@
 Website Daffa Ahmad Ibrahim
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W0HURDT)
+[![GitHub followers](https://img.shields.io/github/followers/Daffabot)] [![GitHub User's stars](https://img.shields.io/github/stars/Daffabot?color=red)] [![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Daffabot/Daffabot.github.io)] 
+<details open>
+    <summary>Open The Files</summary>
 <body>
 <hr style="clear: both;">
 <div style="text-align: center;">
-<h1>about me</h1>
-<br>
-<nav class="biru">
-    <div class="nav-item">
-    <a class="nav-link" href="index.html">Home</a>
-    </div>
-    <div class="nav-item">
-    <a class="nav-link active" href="README.md">About</a>
-    </div>
-    <div class="nav-item">
-    <a class="nav-link" href="kontak.html">Contact</a>
-    </div>
-    </nav>
-    <br>
-
-<div class="sample" id="sampleArea" style="width: 100%; display: none;">
- 
-<h2>When it doesn't function, there may be some errors in the forms.</h2>
 <div class="side-block"><div class="heading">side-bar</div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://wa.me/+6285156207150?text=Halo+Bang" target="_blank">Whatsapp Contact</a><span style="font-size: 80%;color: #666;">(+62 851 5620 7150)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="#" target="_blank">Short Story</a><span style="font-size: 80%;color: #666;">(Narrative Text)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://daffabot.github.io/notedaffabot.github.io" target="_blank">Blog Note</a><span style="font-size: 80%;color: #666;">(My Note)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://gun-glory.blogspot.com/">Guns Glory</a><span style="font-size: 80%;color: #666;">(Gun File)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://github.com/Daffabot">Project</a><span style="font-size: 80%;color: #666;">(My Project)</span></div></div>
  <br>
 <div class="scpnet-interwiki-wrapper"><div class="interwiki"><div class="interwiki__title">Interwiki sample</div><div class="interwiki__entry"><a href="https://en.m.wiktionary.org/wiki/Spain" target="_blank">Esperanto</a></div><div class="interwiki__entry"><a href="https://github.com/topics/tlhingan-hol" target="_blank">tlhIngan Hol</a></div><div class="interwiki__entry"><a href="https://en.m.wikipedia.org/wiki/Na%CA%BCvi_language" target="_blank">Na'vi</a></div><div class="interwiki__entry"><a href="https://tolkiengateway.net/wiki/Qenya" target="_blank">Qenya</a></div></div></div>
@@ -39,3 +24,4 @@ Date: <b>[Level 5 Access]</b></p>
 </blockquote></div></div></div><br>
 </div>
 </div>
+<details>
