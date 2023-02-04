@@ -2,7 +2,8 @@
 Website Daffa Ahmad Ibrahim
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W0HURDT)
-[![GitHub followers](https://img.shields.io/github/followers/Daffabot)] [![GitHub User's stars](https://img.shields.io/github/stars/Daffabot?color=red)] [![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Daffabot/Daffabot.github.io)] 
+
+![GitHub followers](https://img.shields.io/github/followers/Daffabot) ![GitHub User's stars](https://img.shields.io/github/stars/Daffabot?color=red) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Daffabot/Daffabot.github.io)
 <details open>
     <summary>Open The Files</summary>
 <body>
