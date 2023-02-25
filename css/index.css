@@ -10,6 +10,64 @@
 		  from {opacity: 0}
 		  to {opacity: 1}}
 
+    @keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+    }
+    #close {
+    background-color: rgba(64, 68, 65, 0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    animation:autopopup 3.5s;
+    }
+    #close:target {
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+    opacity: 0;
+    visibility: hidden;
+    }
+    @media (min-width: 768px){
+    .container-popup {
+    width: 30%;
+    }
+    }
+    @media (max-width: 767px){
+    .container-popup {
+    width: 30%;
+    }
+    }
+    .container-popup {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
+    padding: 4px 3px;
+    background-color: #20DFDF;
+    color: #333;
+    border-radius: 8px;
+    }
+    .container-popup img {
+    width: 20%;
+    height: 20%;
+    border-radius: 15%;
+    object-fit: fill;
+    }
+    .close {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #e1fff5;
+    padding: 7px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    color: #fff;
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -262,8 +320,8 @@ html {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  margin: 5px 15px;
-  gap:20px;
+  margin: 5px 100px;
+  gap: 20px;
   position: relative;
 }
 .card {
@@ -290,6 +348,7 @@ html {
 }
 .body-card svg {
   width: 31px;
+	color: #02c3bd;
   position: absolute;
   bottom: 7px; right: 20px;
 }
