@@ -320,7 +320,7 @@ html {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  margin: 5px 100px;
+  margin: 5px 0px;
   gap: 20px;
   position: relative;
 }
@@ -328,7 +328,7 @@ html {
   width: 100%;
   height: auto;
   grid-column: span 4;
-  margin: 10px 0;
+  margin: 10 0px;
   border-radius: 15px;
   position: relative;
   box-shadow: 0 10px 10px #02c3bd;
@@ -339,7 +339,7 @@ html {
   object-fit: fill;
 }
 .body-card {
-  padding: 10px 15px;
+  padding: 20px 15px;
 	color: #02c3bd;
 }
 .body-card h1 {
@@ -360,7 +360,11 @@ html {
   @media screen and (min-width: 760px) {
     .card {
       width: 350px;
-      margin: 10 -20px;
+      margin: 10 0px;
     }
   }
-    @media screen and (min-width: 960px) {}
+    @media screen and (min-width: 960px) {
+		.case {
+			  margin: 5px 100px;
+		}
+	}
