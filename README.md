@@ -4,8 +4,8 @@ Website Daffa Ahmad Ibrahim
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W0HURDT)
 
 ![GitHub followers](https://img.shields.io/github/followers/Daffabot) ![GitHub User's stars](https://img.shields.io/github/stars/Daffabot?color=red) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Daffabot/Daffabot.github.io)
-<details open>
-    <summary>Open The Files</summary>
+<details>
+    <summary><b>About</b></summary>
 <body>
 <hr style="clear: both;">
 <div style="text-align: center;">
@@ -26,3 +26,28 @@ Date: <b>[Level 5 Access]</b></p>
 </div>
 </div>
 </details>
+
+### Github Stats 🚀
+
+<p align="center"><a href="https://github.com/daffabot"><img src="https://github-readme-stats.vercel.app/api?username=daffabot&show_icons=true&theme=radical"></a></p>
+<p align="center"><a href="https://github.com/daffabot"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daffabot&theme=radical&layout=compact"></a></p> 
+
+### Repo Stats 🔭
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=Daffabot.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=russian-roulette.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=dps-calc.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=chatbot.github.io&theme=dark)
+
+<details>
+    <summary>&#127942 <b>GitHub Awards</b></summary><br/>
+
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=Daffabot)
+
+</details>
+
+<details>
+    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
+
+![Metrics](https://metrics.lecoq.io/Daffabot)
+
+</details> 
