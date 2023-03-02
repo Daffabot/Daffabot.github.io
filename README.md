@@ -34,9 +34,9 @@ Date: <b>[Level 5 Access]</b></p>
 
 ### Repo Stats 🔭
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=Daffabot.github.io&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=russian-roulette.github.io&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=dps-calc.github.io&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=chatbot.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=russian-roulette&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=dps-calc&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=chatbot&theme=dark)
 
 <details>
     <summary>&#127942 <b>GitHub Awards</b></summary><br/>
