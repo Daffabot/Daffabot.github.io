@@ -43,14 +43,16 @@ Copyright (c) 2020 - Present, Designed & Developed by [Daffabot](https://instagr
 
 ### Github Stats 🚀
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Daffabot&theme=vue-dark&locale=id&mode=weekly)](https://git.io/streak-stats)
 <p align="center"><a href="https://github.com/daffabot"><img src="https://github-readme-stats.vercel.app/api?username=daffabot&show_icons=true&theme=radical"></a></p>
 <p align="center"><a href="https://github.com/daffabot"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daffabot&theme=radical&layout=compact"></a></p> 
 
+
 ### Repo Stats 🔭
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=Daffabot.github.io&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=russian-roulette&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=dps-calc&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=chatbot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=russian-roulette.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=dps-calc.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Daffabot&repo=chatbot.github.io&theme=dark)
 
 <details>
     <summary>&#127942 <b>GitHub Awards</b></summary><br/>
@@ -60,8 +62,8 @@ Copyright (c) 2020 - Present, Designed & Developed by [Daffabot](https://instagr
 </details>
 
 <details>
-    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
+    <summary>&#127942 <b>GitHub Metrics</b></summary><br/>
+    
+![Metrics](https://metrics.lecoq.io/Daffabot?template=classic&commits.authoring=Daffabot&isocalendar=1&stars=1&habits=1&achievements=1&activity=1&pagespeed=1&tweets=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&stars=false&stars.limit=4&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&achievements=false&achievements.threshold=X&achievements.secrets=true&achievements.display=detailed&achievements.limit=10&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&pagespeed=false&pagespeed.url=https%3A%2F%2Fdaffabot.my.id&pagespeed.detailed=true&pagespeed.screenshot=true&pagespeed.pwa=true&tweets=false&tweets.user=Daffabot_id&tweets.attachments=true&tweets.limit=2&config.timezone=Asia%2FJakarta&config.order=Daffabot.github.io)
 
-![Metrics](https://metrics.lecoq.io/Daffabot)
-
-</details> 
+</details>
