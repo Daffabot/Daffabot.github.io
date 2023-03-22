@@ -6,7 +6,7 @@
   z-index: 1;
   width: 120px;
   height: 120px;
-  margin: -76px 0 0 -76px;
+  margin: -76px 0 0 -60px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
@@ -131,9 +131,6 @@
 			margin-left: 6%; 
 			margin-right: 6%;
 		}
-                #footer-action {
-			float: left;
-                }
                 #footer-action-description {
 			font-size: 1.3em;
                 }
