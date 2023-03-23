@@ -69,7 +69,20 @@
       font-size: 16px;
       background: #262228;
     }
+.chevron.bottom {
+  transform: translate(0px, 0px);
+  animation: arrow-daffabot-tampan 1805ms infinite ease-out;
+}
 
+@keyframes arrow-daffabot-tampan {
+  from {
+    transform: translate(0%, 0%);
+  }
+
+  to {
+    transform: translate(0%, 200%);
+  }
+}
 .chevron::before {
 	border-style: solid;
 	border-width: 0.75em 0.75em 0 0;
