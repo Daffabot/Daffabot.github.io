@@ -50,3 +50,15 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+
+//script for comments disqus
+disqusLoader( '.disqus',
+	{
+		scriptUrl:		'//daffabot-main.disqus.com/embed.js',
+		disqusConfig:	function()
+		{
+			this.page.identifier 	= 'Daffabot';
+			this.page.url			= 'https://www.daffabot.my.id';
+			this.page.title			= 'Portofolio Daffa Ahmad Ibrahim';
+		}
+	});
