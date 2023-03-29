@@ -52,7 +52,7 @@ function showPage() {
 }
 
 //script for comments disqus
-disqusLoader( '.disqus',
+disqusLoader( '.disqustret',
 	{
 		scriptUrl:		'//daffabot-main.disqus.com/embed.js',
 		disqusConfig:	function()
