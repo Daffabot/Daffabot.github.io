@@ -5,13 +5,7 @@
             '/',
             '/?utm_source=homescreen',
             '/index.html',
-            '/css/stylefooter.css',
-            '/css/style1.css',
-            '/css/index.css',
-            '/manifest.json',
-            '/js/register.js',
-            '/js/service-worker.js',
-            '/image/favicon.ico'
+            '/main/happy-new-year-2023.html'
         ])
             .then(() => self.skipWaiting());
     })
