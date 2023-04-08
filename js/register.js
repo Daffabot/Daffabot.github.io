@@ -1,12 +1,11 @@
-document.addEventListener('DOMContentLoaded', init, false);
-
-function init() {
-    if ('serviceWorker' in navigator && navigator.onLine) {
-        navigator.serviceWorker.register('/service-worker.js')
-        .then((reg) => {
-            console.log('Registrasi service worker Berhasil', reg);
-        }, (err) => {
-            console.error('Registrasi service worker Gagal', err);
-        });
-    }
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('/service-worker.js').
+    then(function (registration) {
+        // Registration was successful``
+        console.log('ServiceWorker registration successful with scope: ', 
+registration.scope);
+    }).catch(function (err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+    });
 }
