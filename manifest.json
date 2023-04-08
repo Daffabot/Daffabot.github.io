@@ -10,11 +10,18 @@
  "display": "fullscreen",
  "orientation": "portrait-primary",
  "icons": [{
+   "src": "/main/android-icon-512x512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
    "src": "/main/apple-icon-72x72.png",
    "sizes": "72x72",
    "type": "image/png",
    "purpose": "any maskable"
-  }, {
+  },
+  {
    "src": "/main/android-icon-192x192.png",
    "sizes": "192x192",
    "type": "image/png",
