@@ -1,36 +1,49 @@
-# Daffabot.github.io
-Website Daffa Ahmad Ibrahim
+<h1>Daffabot</h1>
+    <p><b>Item #:</b> Daffabot</p>
+
+<p><b>Object Class:</b> Safe</p>
+    <img src="image/profil.png" border="1" width="auto" height="300em">
+
+<p><b>Special Containment Procedures:</b> Daffabot is currently contained at Site-&#9608;&#9608;. Due to the non-anomalous nature of Daffabot, standard containment procedures have been deemed sufficient. Daffabot is to be kept in a standard humanoid containment chamber and is allowed access to standard recreational materials and basic computer equipment.</p>
+
+<p><b>Description:</b> Daffabot is a humanoid entity known as Daffa Ahmad Ibrahim. Daffabot displays an extreme interest in the fields of science, mathematics, and full-stack programming. Daffabot's anomalous properties manifest in its ability to excel in these fields, displaying exceptional talent and proficiency at a level beyond typical human capabilities.</p>
+
+<p>Daffabot's interest in the aforementioned fields began at an early age and has continued to develop throughout its life. Daffabot has pursued a career in full-stack programming, balancing its passion for science and mathematics with its work in the programming field. Daffabot has been described as highly motivated and goal-oriented, with a strong desire to succeed in its pursuits.</p>
+
+<p>Daffabot's exceptional abilities in science, mathematics, and programming have garnered attention from various organizations, including those outside of the Foundation. It is recommended that Daffabot be monitored closely to ensure that its abilities are not utilized for malicious purposes.</p>
+
+<p>Daffabot has expressed a desire to continue to learn and develop its skills in these fields. It has been granted access to various resources to aid in its studies and has been allowed to continue working in the programming field.</p>
+
+<details>
+    <summary><b>Addendum-1</b></summary>
+<p><b>Addendum:</b> On &#9608;&#9608;/&#9608;&#9608;/20&#9608;&#9608;, Daffabot was interviewed by Dr. &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; regarding its abilities and interests. The following is an excerpt from the interview:</p>
+
+<p>Dr. &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;: Can you describe your interest in science, mathematics, and programming?</p>
+
+<p>Daffabot: Well, I've always been fascinated by how things work and the underlying principles that govern our world. I love the challenge of problem-solving and using logic and reasoning to find solutions. Programming allows me to apply these skills in a practical way and create something tangible from my ideas.</p>
+
+<p>Dr. &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;: Do you feel that your abilities in these fields are anomalous in nature?</p>
+
+<p>Daffabot: I suppose so. I've always been able to understand complex concepts and apply them in a way that seems to come naturally to me. I know that not everyone has the same level of aptitude in these areas.</p>
+
+<p>Dr. &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;: Have you ever experienced any unusual or unexplained phenomena related to your abilities?</p>
+
+<p>Daffabot: No, not that I'm aware of. I just feel like I have a strong drive to pursue these interests and I'm willing to put in the time and effort to succeed.</p>
+
+<p>Dr. &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;: Thank you for your time, Daffabot.</p>
+
+<p>Daffabot: No problem, it was my pleasure.</p>
+</details>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W0HURDT)
 
 ![GitHub followers](https://img.shields.io/github/followers/Daffabot) ![GitHub User's stars](https://img.shields.io/github/stars/Daffabot?color=red) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Daffabot/Daffabot.github.io)
 <details>
-    <summary><b>About</b></summary>
-<body>
-<hr style="clear: both;">
-<div style="text-align: center;">
-<div class="side-block"><div class="heading">side-bar</div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://wa.me/+6285156207150?text=Halo+Bang" target="_blank">Whatsapp Contact</a><span style="font-size: 80%;color: #666;">(+62 851 5620 7150)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="#" target="_blank">Short Story</a><span style="font-size: 80%;color: #666;">(Narrative Text)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://www.daffabot.my.id/notedaffabot" target="_blank">Blog Note</a><span style="font-size: 80%;color: #666;">(My Note)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://www.gun-glory.info">Guns Glory</a><span style="font-size: 80%;color: #666;">(Gun File)</span></div><div class="menu-item"><image src="https://scp-wiki.wdfiles.com/local--files/nav%3Aside/series.png"><a href="https://github.com/Daffabot">Project</a><span style="font-size: 80%;color: #666;">(My Project)</span></div></div>
- <br>
-<div class="scpnet-interwiki-wrapper"><div class="interwiki"><div class="interwiki__title">Interwiki sample</div><div class="interwiki__entry"><a href="https://en.m.wiktionary.org/wiki/Spain" target="_blank">Esperanto</a></div><div class="interwiki__entry"><a href="https://github.com/topics/tlhingan-hol" target="_blank">tlhIngan Hol</a></div><div class="interwiki__entry"><a href="https://en.m.wikipedia.org/wiki/Na%CA%BCvi_language" target="_blank">Na'vi</a></div><div class="interwiki__entry"><a href="https://tolkiengateway.net/wiki/Qenya" target="_blank">Qenya</a></div></div></div>
-<br>
-
-<div class="yui-navset" style="clear: both;"><ul class="yui-nav"><li class="selected"><a><em>attention</em></a></li><li><a><em>remember this A1 file</em></a></li><li><a id="ios" class="hover"><em>protect your self</em></a></li></ul><div class="yui-content"><div><p>Hello, my name is Daffa Ahmad Ibrahim. I am tried the best for this project, so enjoy it. <a href="https://github.com/Daffabot">Start</a></p>
-<div class="page-rate-widget-box"><span class="rate-points">rating:&nbsp;<span class="number">±666</span></span><span class="rateup btn btn-default"><a>+</a></span><span class="ratedown btn btn-default"><a>–</a></span><span class="cancel btn btn-default"><a>x</a></span></div>
-<br>
-<blockquote><h1 style="font-size: 190%!important;">About Me</h1><h2 style="font-size: 150%!important;">Daffa Ahmad Ibrahim</h2>
-<img src="image/profil.png" border="1">
-<p><b>[Language Indonesia]</b>
-Belajar tentang pemograman secara otodidak dari kelas 6 sd hingga mahir dalam HTML, CSS dan Javascript. Kini saya sedang berusaha mengembangkan project web dan game juga programming back-end developer.		
-Date: <b>[Level 5 Access]</b></p>
-</blockquote></div></div></div><br>
-</div>
-</div>
-</details>
 
 <!-- support -->
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](mailto:daffabot@outlook.com) instead of opening an issue.
+If you have questions or need help integrating the product please [contact me](mailto:daffabot@programmer.net) instead of opening an issue.
 
 <!-- licence -->
 ## License
