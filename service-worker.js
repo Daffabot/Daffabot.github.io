@@ -1,18 +1,17 @@
  self.addEventListener('install', e => {
- e.waitUntil(
+  e.waitUntil(
     caches.open('airhorner').then(cache => {
-        return cache.addAll([
-            '/',
-            '/?utm_source=homescreen',
-            '/index.html'
-        ])
-            .then(() => self.skipWaiting());
+      return cache.addAll([
+        '/',
+        '/?utm_source=homescreen',
+        '/index.html'
+      ]);
     })
-  )
+  );
 });
 
 self.addEventListener('activate', event => {
- event.waitUntil(self.clients.claim());
+  event.waitUntil(self.clients.claim());
 });
 
 self.addEventListener('fetch', event => {
@@ -22,8 +21,9 @@ self.addEventListener('fetch', event => {
         return response || fetch(event.request);
       })
       .catch(() => {
-        return fetch(event.request)
-          .catch(() => caches.match('index.html'));
+        if (event.request.mode === 'navigate') {
+          return caches.match('index.html');
+        }
       })
   );
 });
