@@ -4,8 +4,7 @@
         return cache.addAll([
             '/',
             '/?utm_source=homescreen',
-            '/index.html',
-            '/main/happy-new-year-2023.html'
+            '/index.html'
         ])
             .then(() => self.skipWaiting());
     })
