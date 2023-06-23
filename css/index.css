@@ -181,12 +181,12 @@
 	border-width: 0.75em 0.75em 0 0;
 	content: '';
 	display: inline-block;
-	height: 1.45em;
+	height: 1.9em;
 	left: 1.15em;
 	top: 1.15em;
 	transform: rotate(-45deg);
 	vertical-align: top;
-	width: 1.45em;
+	width: 1.9em;
 }
 .chevron.bottom:before {
 	transform: rotate(135deg);
