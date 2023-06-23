@@ -67,7 +67,7 @@
       box-sizing: border-box;
     }
     body {
-      font-family: 'Zen Kaku Gothic New', sans-serif;
+      font-family: 'bungee', sans-serif;
       font-size: 16px;
       background: #262228;
 	    display: flex;
@@ -84,7 +84,7 @@
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: bungee, sans-serif;
+  font-family: 'bungee, sans-serif;
   font-weight: 16;
   text-transform: uppercase;
   font-size: calc(1rem + 2vw);
