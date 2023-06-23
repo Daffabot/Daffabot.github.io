@@ -240,9 +240,9 @@
 }
 .left .fill {
   z-index: 1;
-  -webkit-animation: left 1s linear;
-  -moz-animation: left 1s linear;
-  animation: left 1s linear both;
+  -webkit-animation: left 2s linear;
+  -moz-animation: left 2s linear;
+  animation: left 2s linear both;
 }
 @keyframes left {
   0% {
@@ -268,12 +268,12 @@
 }
 .right .fill {
   z-index: 3;
-  -webkit-animation: right 1s linear;
-  -moz-animation: right 1s linear;
-  animation: right 1s linear both;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation: right 2s linear;
+  -moz-animation: right 2s linear;
+  animation: right 2s linear both;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
 @keyframes right {
   0% {
