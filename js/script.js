@@ -1,3 +1,23 @@
+//Script to preload image header
+    function preloadImage(url) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = url;
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+    }
+
+    window.onload = () => {
+      preloadImage('../image/profil.png')
+        .then(() => {
+          console.log('Gambar profil berhasil dimuat pertama');
+        })
+        .catch((error) => {
+          console.error('Gagal memuat gambar profil:', error);
+        });
+    };
+
 //Script To Reveal Content
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
