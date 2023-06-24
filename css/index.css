@@ -89,7 +89,7 @@ body {
   --color-quinary: #117979;
 }
 
-/*add animation profile*/
+/*add animation title*/
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
@@ -205,6 +205,7 @@ body {
   border-color: #02c3bd;
 }
 
+/*add animation profile*/
 #outline {
   width: 100px;
   height: 100px;
