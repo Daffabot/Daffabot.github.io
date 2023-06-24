@@ -1,4 +1,4 @@
-//Script to preload image header
+//Script to preload image header + loading
     function preloadImage(url) {
       return new Promise((resolve, reject) => {
         const img = new Image();
@@ -9,6 +9,15 @@
     }
 
     window.onload = () => {
+      var myVar;
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+      myFunction();
       preloadImage('../image/profil.png')
         .then(() => {
           console.log('Gambar profil berhasil dimuat pertama');
@@ -57,18 +66,6 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
-
-//script for loading
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
 }
 
 //script for comments disqus
