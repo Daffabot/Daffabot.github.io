@@ -1,5 +1,3 @@
-
-
 /* Center the loader */
 #loader {
   position: absolute;
@@ -567,6 +565,7 @@ a:active {
 /*up icon settings*/
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .up-icon {
