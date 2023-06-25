@@ -29,7 +29,7 @@
 
 //Script To Reveal Content
 function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
+  var reveals = document.querySelectorAll(".reveal, .inreveal");
 
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;

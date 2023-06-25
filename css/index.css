@@ -1,4 +1,6 @@
-    /* Center the loader */
+
+
+/* Center the loader */
 #loader {
   position: absolute;
   left: 50%;
@@ -408,6 +410,7 @@ section {
 section .container{
   margin: 10px;
   flex-direction: column;
+  width: 97%;
 }
 
 section h1{
@@ -426,8 +429,8 @@ section .text-container{
 }
 
 section .text-container .text-box{
-  margin: 10 0;
-  padding: 21;
+  margin: 10px 0px;
+  padding: 21px;
   background: #262228;
   flex-direction: column;
   width: 100%;
@@ -435,8 +438,8 @@ section .text-container .text-box{
 }
 
 section .text-container .text-box2{
-  margin: 10 0;
-  padding: 21;
+  margin: 10px 0px;
+  padding: 21px;
   background: #02c3bd;
   flex-direction: column;
   width: 100%;
@@ -460,16 +463,64 @@ section .text-container .text-box h3{
 }
 
 /*animation reveal*/
-.reveal{
+.reveal, .inreveal{
   position: relative;
-  transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
 .reveal.active{
-  transform: translateY(0);
+	-webkit-animation: slide-br 0.5s ease-in both;
+	        animation: slide-br 0.5s ease-in both;
   opacity: 1;
+}
+@-webkit-keyframes slide-br {
+  0% {
+    -webkit-transform: translateY(-100px) translateX(-100px);
+            transform: translateY(-100px) translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px) translateX(0px);
+            transform: translateY(0px) translateX(0px);
+  }
+}
+@keyframes slide-br {
+  0% {
+    -webkit-transform: translateY(-100px) translateX(-100px);
+            transform: translateY(-100px) translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px) translateX(0px);
+            transform: translateY(0px) translateX(0px);
+  }
+}
+
+/*reveal 2*/
+.inreveal.active {
+	-webkit-animation: slide-bl 0.5s ease-in both;
+	        animation: slide-bl 0.5s ease-in both;
+  opacity: 1;
+}
+
+@-webkit-keyframes slide-bl {
+  0% {
+    -webkit-transform: translateY(-100px) translateX(100px);
+            transform: translateY(-100px) translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+}
+@keyframes slide-bl {
+  0% {
+    -webkit-transform: translateY(-100px) translateX(100px);
+            transform: translateY(-100px) translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
 }
 
 /*paragraph settings*/
