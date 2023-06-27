@@ -39,21 +39,24 @@
    }  
    .footer-logo-link {  
      display: inline-block;  
-     text-decoration: none;  
+     text-decoration: none; 
      color: #02c3bd;  
+     font-family: 'VT323', monospace;
+     font-size: 3rem;
    }  
    .footer-menu {  
      margin-top: 30px;  
    }  
    .footer-menu-name {  
      color: #02c3bd;  
-     font-size: 18px;  
+     font-size: 2rem;  
      font-weight: 900;  
      letter-spacing: .1em;  
      line-height: 18px;  
      margin-bottom: 0;  
      margin-top: 0;  
-     text-transform: uppercase;  
+     text-transform: uppercase; 
+     font-family: 'VT323', monospace;
    }  
    .footer-menu-list {  
      list-style: none;  
@@ -63,12 +66,15 @@
    }  
    .footer-menu-list li {  
      margin-top: 5px;  
+     font-size: 1.5rem;
+     font-family: 'VT323', monospace;
    }  
    .footer-call-to-action-description {  
      color: #02c3bd;  
      margin-top: 1px;  
      margin-bottom: 1px;  
-     font-size: 25px;
+     font-size: 1.5rem;
+     font-family: 'VT323', monospace;
    }  
    .footer-call-to-action-button:hover {  
      background-color: #02c3bd;  
@@ -82,7 +88,7 @@
      border-radius: 21px;  
      color: #02c3bd;  
      display: inline-block;  
-     font-size: 11px;  
+     font-size: 1.5rem;  
      font-weight: 900;  
      letter-spacing: .1em;  
      line-height: 18px;  
@@ -92,7 +98,8 @@
      text-transform: uppercase;  
      transition: background-color .2s;  
      cursor: pointer;  
-     position: relative;  
+     position: relative; 
+     font-family: 'VT323', monospace;
    }  
    .footer-call-to-action {  
      margin-top: 30px;  
@@ -102,10 +109,11 @@
      font-size: 14px;  
      font-weight: 900;  
      letter-spacing: .1em;  
-     line-height: 18px;  
+     font-size: 2rem;  
      margin-bottom: 0;  
      margin-top: 0;  
      text-transform: uppercase;  
+     font-family: 'VT323', monospace;
    }  
    .footer-call-to-action-link-wrapper {  
      margin-bottom: 0;  
@@ -116,73 +124,6 @@
    .footer-call-to-action-link-wrapper a {  
      color: #02c3bd;  
      text-decoration: none;  
-   }  
-   .footer-social-links {  
-     bottom: 0;  
-     height: 54px;  
-     position: absolute;  
-     right: 0;  
-     width: 236px;  
-   }  
-   .footer-social-amoeba-svg {  
-     height: 54px;  
-     left: 0;  
-     display: block;  
-     position: absolute;  
-     top: 0;  
-     width: 236px;  
-   }  
-   .footer-social-amoeba-path {  
-     fill: gray;  
-   }  
-   .footer-social-link.linkedin {  
-     height: 26px;  
-     left: 3px;  
-     top: 11px;  
-     width: 26px;  
-   }  
-   .footer-social-link {  
-     display: block;  
-     padding: 10px;  
-     position: absolute;  
-   }  
-   .hidden-link-text {  
-     position: absolute;  
-     clip: rect(1px 1px 1px 1px);  
-     clip: rect(1px,1px,1px,1px);  
-     -webkit-clip-path: inset(0px 0px 99.9% 99.9%);  
-     clip-path: inset(0px 0px 99.9% 99.9%);  
-     overflow: hidden;  
-     height: 1px;  
-     width: 1px;  
-     padding: 0;  
-     border: 0;  
-     top: 50%;  
-   }  
-   .footer-social-icon-svg {  
-     display: block;  
-   }  
-   .footer-social-icon-path {  
-     fill: #02c3bd;  
-     transition: fill .2s;  
-   }  
-   .footer-social-link.twitter {  
-     height: 28px;  
-     left: 62px;  
-     top: 3px;  
-     width: 28px;  
-   }  
-   .footer-social-link.youtube {  
-     height: 24px;  
-     left: 123px;  
-     top: 12px;  
-     width: 24px;  
-   }  
-   .footer-social-link.github {  
-     height: 34px;  
-     left: 172px;  
-     top: 7px;  
-     width: 34px;  
    }  
    .footer-copyright {  
      background-color: gray;  
@@ -197,7 +138,7 @@
    }  
    .footer-copyright-text {  
     color: #fff;  
-     font-size: 18px;  
+     font-size: 1.5rem;  
      font-weight: 400;  
      line-height: 18px;  
      margin-bottom: 0;  
