@@ -1,4 +1,4 @@
- self.addEventListener('install', e => {
+self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('airhorner').then(cache => {
       return cache.addAll([
@@ -24,7 +24,7 @@
         '/image/profil.webp',
         '/image/logo.jpg',
         '/image/pesawat.png',
-        'image/dpsformula.png',
+        '/image/dpsformula.png',
         '/image/favico.ico',
         '/image/pesawat.webp',
         '/image/roulette.png',
@@ -79,7 +79,7 @@ self.addEventListener('fetch', event => {
       })
       .catch(() => {
         if (event.request.mode === 'navigate') {
-          return caches.match('index.html');
+          return caches.match('/index.html');
         }
       })
   );
