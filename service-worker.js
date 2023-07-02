@@ -72,22 +72,6 @@ self.addEventListener("install", (e) => {
       .open(cacheName)
       .then((cache) => {
         console.log("Service Worker: Caching Files");
-        return cache.addAll(cacheAssets);
-      })
-      .then(() => self.skipWaiting())
-      .catch((err) => console.error("Service Worker: Caching Files Error", err))
-  );
-});
-
-// memanggil event activate untuk aktivasi
-self.addEventListener("activate", (e) => {
-  console.log("Service Worker: Activated");
-  // menghapus cache jika nama sama
-  e.waitUntil(
-    caches
-      .open(cacheName)
-      .then((cache) => {
-        console.log("Service Worker: Caching Files");
         return Promise.all(
           cacheAssets.map((url) => {
             return fetch(url)
@@ -107,6 +91,24 @@ self.addEventListener("activate", (e) => {
         console.log("Service Worker: Caching Files Completed");
         return self.skipWaiting();
       })
+  );
+});
+
+// memanggil event activate untuk aktivasi
+self.addEventListener("activate", (e) => {
+  console.log("Service Worker: Activated");
+  // menghapus cache jika nama sama
+  e.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cache) => {
+          if (cache !== cacheName) {
+            console.log("Service Worker: Clearing Old Cache");
+            return caches.delete(cache);
+          }
+        })
+      );
+    })
   );
 });
 
