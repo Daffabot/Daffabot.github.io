@@ -637,7 +637,7 @@ html {
   visibility: visible;
 }
 
-#link {
+.link {
   color: #02c3bd;
 }
 
