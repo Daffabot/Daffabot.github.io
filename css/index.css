@@ -351,6 +351,8 @@ body {
 .Ffamily {
   font-family: 'VT323', monospace;
   text-align: center;
+  font-size: 27px;
+  height: auto;
 }
 
 .Saweria {
