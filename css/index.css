@@ -15,13 +15,21 @@
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Add animation to "page content" */
@@ -30,17 +38,29 @@
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 #myDiv {
@@ -48,7 +68,9 @@
   text-align: center;
 }
 
-.fade, body, img {
+.fade,
+body,
+img {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3s;
   animation-name: fade;
@@ -56,13 +78,21 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 *,
@@ -82,7 +112,7 @@ body {
 }
 
 :root {
-  --color-primary: #20DFDF;
+  --color-primary: #20dfdf;
   --color-secondary: #1cc3c3;
   --color-tertiary: #19adad;
   --color-quaternary: #179f9f;
@@ -91,9 +121,8 @@ body {
 
 /*add animation title*/
 .text_shadows {
-  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
-    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: 'Bungee', sans-serif;
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: "Bungee", sans-serif;
   font-weight: 16;
   text-transform: uppercase;
   font-size: calc(1rem + 2vw);
@@ -115,35 +144,25 @@ body {
     text-shadow: 3px 3px 0 var(--color-secondary);
   }
   20% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
   }
   30% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
   }
   40% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
   }
   50% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
   }
   60% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
   }
   70% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
   }
   80% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
   }
   90% {
     text-shadow: 3px 3px 0 var(--color-secondary);
@@ -190,7 +209,7 @@ body {
 .chevron::before {
   border-style: solid;
   border-width: 0.75em 0.75em 0 0;
-  content: '';
+  content: "";
   display: inline-block;
   height: 1.9em;
   left: 1.15em;
@@ -247,7 +266,7 @@ body {
 
 .fill,
 .dot span {
-  background-color: #20DFDF;
+  background-color: #20dfdf;
 }
 
 .fill {
@@ -349,7 +368,7 @@ body {
 }
 
 .Ffamily {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   text-align: center;
   font-size: 27px;
   height: auto;
@@ -357,10 +376,12 @@ body {
 
 .Saweria {
   border-radius: 10%;
+  width: 200px;
+  height: 40px;
 }
 
 .disqustret {
-  margin-left: 6%; 
+  margin-left: 6%;
   margin-right: 6%;
 }
 
@@ -385,13 +406,13 @@ section {
 #satu {
   color: #02c3bd;
   flex-direction: column;
-  }
+}
 
 #dua {
   color: #02c3bd;
   background: #02c3bd;
   flex-direction: column;
-} 
+}
 
 #tiga {
   color: #262228;
@@ -404,28 +425,28 @@ section {
   flex-direction: column;
 }
 
-section .container{
+section .container {
   margin: 10px;
   flex-direction: column;
   width: 97%;
 }
 
-section h1{
+section h1 {
   font-size: 3rem;
   margin: 20px;
 }
 
-section h2{
+section h2 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
 }
 
-section .text-container{
+section .text-container {
   display: flex;
 }
 
-section .text-container .text-box{
+section .text-container .text-box {
   margin: 10px 0px;
   padding: 21px;
   background: #262228;
@@ -434,7 +455,7 @@ section .text-container .text-box{
   color: #02c3bd;
 }
 
-.text-box2{
+.text-box2 {
   margin: 10px 0px;
   padding: 21px;
   background: #02c3bd;
@@ -442,105 +463,106 @@ section .text-container .text-box{
   width: 100%;
 }
 
-section .text-container .text-box .text-box2 h3{
+section .text-container .text-box .text-box2 h3 {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-@media (max-width: 2560px){
-  section h1{
+@media (max-width: 2560px) {
+  section h1 {
     font-size: 2rem;
     text-align: center;
   }
-  section .text-container{
+  section .text-container {
     flex-direction: column;
   }
 }
 
 /*animation reveal*/
-.reveal, .inreveal{
+.reveal,
+.inreveal {
   position: relative;
   transition: 1s all ease;
   opacity: 0;
 }
 
-.reveal.active{
-	-webkit-animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+.reveal.active {
+  -webkit-animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   opacity: 1;
 }
 
 @-webkit-keyframes swing-in-right-bck {
   0% {
     -webkit-transform: rotateY(70deg);
-            transform: rotateY(70deg);
+    transform: rotateY(70deg);
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     opacity: 1;
   }
 }
 @keyframes swing-in-right-bck {
   0% {
     -webkit-transform: rotateY(70deg);
-            transform: rotateY(70deg);
+    transform: rotateY(70deg);
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     opacity: 1;
   }
 }
 
 /*reveal 2*/
 .inreveal.active {
-	-webkit-animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  -webkit-animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   opacity: 1;
 }
 
 @-webkit-keyframes swing-in-left-bck {
   0% {
     -webkit-transform: rotateY(-70deg);
-            transform: rotateY(-70deg);
+    transform: rotateY(-70deg);
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     opacity: 1;
   }
 }
 @keyframes swing-in-left-bck {
   0% {
     -webkit-transform: rotateY(-70deg);
-            transform: rotateY(-70deg);
+    transform: rotateY(-70deg);
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
-            transform: rotateY(0);
+    transform: rotateY(0);
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     opacity: 1;
   }
 }
@@ -548,7 +570,7 @@ section .text-container .text-box .text-box2 h3{
 /*paragraph settings*/
 p {
   font-size: 1.7em;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   width: auto;
   height: auto;
 }
@@ -578,12 +600,12 @@ a:active {
 /*font face settings*/
 @font-face {
   font-family: "VT323";
-  src: url('../font/VT323-Regular.ttf');
+  src: url("../font/VT323-Regular.ttf");
 }
 
 @font-face {
   font-family: "Bungee";
-  src: url('../font/Bungee-Regular.ttf');
+  src: url("../font/Bungee-Regular.ttf");
 }
 
 /*up icon settings*/
@@ -622,16 +644,16 @@ html {
 #comments {
   display: flexbox;
   margin: 10px 15px;
-  background: #262228; 
-  height: auto; 
+  background: #262228;
+  height: auto;
   width: auto;
 }
 
 #dsq-app9084 {
-  width: 1px !important; 
-  min-width: 100% !important; 
-  border: none !important; 
-  overflow: hidden !important; 
+  width: 1px !important;
+  min-width: 100% !important;
+  border: none !important;
+  overflow: hidden !important;
   height: 1932px !important;
 }
 
@@ -648,7 +670,7 @@ a.link {
   padding: 0;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(8,1fr);
+  grid-template-columns: repeat(8, 1fr);
   margin: 5px 0px;
   gap: 20px;
   position: relative;
@@ -668,6 +690,8 @@ a.link {
   width: 100%;
   height: 200px;
   object-fit: fill;
+  border: 2px solid;
+  align-self: center;
 }
 
 .body-card {
@@ -684,7 +708,8 @@ a.link {
   width: 31px;
   color: #02c3bd;
   position: absolute;
-  bottom: 7px; right: 20px;
+  bottom: 7px;
+  right: 20px;
 }
 
 @media screen and (min-width: 550px) {
@@ -693,14 +718,14 @@ a.link {
   }
 }
 
-  @media screen and (min-width: 760px) {
-    .card {
-      width: 350px;
-      margin: 10 0px;
-    }
+@media screen and (min-width: 760px) {
+  .card {
+    width: 350px;
+    margin: 10 0px;
   }
-    @media screen and (min-width: 960px) {
-		.case {
-			  margin: 5px 100px;
-		}
-	}
+}
+@media screen and (min-width: 960px) {
+  .case {
+    margin: 5px 100px;
+  }
+}
