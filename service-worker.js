@@ -13,7 +13,6 @@ const cacheAssets = [
   "./js/picturefill.js",
   "./js/register.js",
   "./js/script.js",
-  "./js/serviceWorker.js",
   "./css/index.css",
   "./css/style1.css",
   "./css/stylefooter.css",
