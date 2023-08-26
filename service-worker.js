@@ -65,7 +65,7 @@ const cacheAssets = [
   "./main/ms-icon-144x144.png",
   "./main/ms-icon-150x150.png",
   "./main/ms-icon-310x310.png",
-  "./main/ms-icon-70x70.png"
+  "./main/ms-icon-70x70.png",
 ];
 
 // memanggil event install
@@ -89,13 +89,13 @@ self.addEventListener("install", (e) => {
               .catch((error) => {
                 console.error("Failed to cache", url, error);
               });
-          })
+          }),
         );
       })
       .then(() => {
         console.log("Service Worker: Caching Files Completed");
         return self.skipWaiting();
-      })
+      }),
   );
 });
 
@@ -111,9 +111,9 @@ self.addEventListener("activate", (e) => {
             console.log("Service Worker: Clearing Old Cache");
             return caches.delete(cache);
           }
-        })
+        }),
       );
-    })
+    }),
   );
 });
 
