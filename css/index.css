@@ -615,11 +615,12 @@ html {
 }
 
 .up-icon {
+  border: none;
   display: none;
   position: fixed;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background: url(../image/top.webp) no-repeat;
   bottom: 20px;
@@ -670,7 +671,7 @@ a.link {
   padding: 0;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Mengatur 2 kolom */
   margin: 5px 0px;
   gap: 20px;
   position: relative;
@@ -679,11 +680,20 @@ a.link {
 .card {
   width: 100%;
   height: auto;
-  grid-column: span 4;
-  margin: 10 0px;
+  margin: 10px 0px; /* Tambahkan satuan px untuk margin */
   border-radius: 15px;
   position: relative;
   box-shadow: 0 10px 10px #02c3bd;
+  justify-self: center;
+}
+
+/* Untuk mengatur grid-column pada card, misalnya, card 1 akan di kolom 1, card 2 di kolom 2, dan seterusnya */
+.card:nth-child(odd) {
+  grid-column: 1; /* Card ganjil di kolom 1 */
+}
+
+.card:nth-child(even) {
+  grid-column: 2; /* Card genap di kolom 2 */
 }
 
 .head-card img {
