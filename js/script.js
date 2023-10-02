@@ -78,3 +78,19 @@ disqusLoader(".disqustret", {
     this.page.title = "Portofolio Daffa Ahmad Ibrahim";
   },
 });
+
+var VisitorAPI=function(t,e,a){var s=new XMLHttpRequest;s.onreadystatechange=function(){var t;s.readyState===XMLHttpRequest.DONE&&(200===(t=JSON.parse(s.responseText)).status?e(t.data):a(t.status,t.result))},s.open("GET","https://api.visitorapi.com/api/?pid="+t),s.send(null)};
+
+VisitorAPI(
+  "nS9amRNv2qBUhHBqYFQf",
+  function(data){
+    console.log('Total visitor web:', data);
+    const trafficCountElement = document.getElementById('trafficCount');
+    if (trafficCountElement) {
+      trafficCountElement.innerHTML = `Total Visitor Web: ${data.count}`;
+    }
+  },
+  function(errorCode, errorMessage){
+    console.log(errorCode, errorMessage);
+  }
+);
