@@ -84,10 +84,10 @@ var VisitorAPI=function(t,e,a){var s=new XMLHttpRequest;s.onreadystatechange=fun
 VisitorAPI(
   "nS9amRNv2qBUhHBqYFQf",
   function(data){
-    console.log('Total visitor web:', data);
-    const trafficCountElement = document.getElementById('trafficCount');
+    console.log('Data user:', data);
+    const trafficCountElement = document.getElementById('visitor');
     if (trafficCountElement) {
-      trafficCountElement.innerHTML = `Total Visitor Web: ${data.count}`;
+      trafficCountElement.innerHTML = `Browser: ${data.browser} <br>Versi Browser: ${data.browserVersion} <br>Kota: ${data.city} <br>Koordinat: ${data.cityLatLong} <br>Negara: ${data.countryName} <br>Merk Device: ${data.deviceBrand} <br>Keluarga Device: ${data.deviceFamily} <br>Model Device: ${data.deviceModel} <br>IP Address: ${data.ipAddress} <br>OS: ${data.os} <br>Versi OS: ${data.osVersion} <br>Region: ${data.region}`;
     }
   },
   function(errorCode, errorMessage){
