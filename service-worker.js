@@ -14,8 +14,6 @@ const cacheAssets = [
   "./js/register.js",
   "./js/script.js",
   "./css/index.css",
-  "./css/style1.css",
-  "./css/stylefooter.css",
   "./font/VT323-Regular.ttf",
   "./font/Bungee-Regular.ttf",
   "./image/profil.png",
