@@ -79,8 +79,7 @@
 .side-menu form button:focus{
     outline: none;
 }
-nav a,
-#visitor{
+nav a{
     display: block ;
     padding: 10px;
     color: #fff;
@@ -88,6 +87,16 @@ nav a,
     position: relative;
     font-family: "VT323";
     font-size: 1.7rem;
+}
+#visitor{
+    display: block ;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    font-family: "VT323";
+    font-size: 1rem;
 }
  nav a+a::before{
      content: '';
