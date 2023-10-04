@@ -87,7 +87,7 @@ VisitorAPI(
     console.log('Data user:', data);
     const trafficCountElement = document.getElementById('visitor');
     if (trafficCountElement) {
-      trafficCountElement.innerHTML = `Browser: ${data.browser} <br>Versi Browser: ${data.browserVersion} <br>Kota: ${data.city} <br>Koordinat: ${data.cityLatLong} <br>Negara: ${data.countryName} <br>Merk Device: ${data.deviceBrand} <br>Keluarga Device: ${data.deviceFamily} <br>Model Device: ${data.deviceModel} <br>IP Address: ${data.ipAddress} <br>OS: ${data.os} <br>Versi OS: ${data.osVersion} <br>Region: ${data.region}`;
+      trafficCountElement.innerHTML = `Browser: ${data.browser} <br>Versi Browser: ${data.browserVersion} <br>Kota: ${data.city} <br>Negara: ${data.countryName} <br>Brand Device Mobile: ${data.deviceBrand} <br>OS: ${data.os} <br>Versi OS: ${data.osVersion}`;
     }
   },
   function(errorCode, errorMessage){
