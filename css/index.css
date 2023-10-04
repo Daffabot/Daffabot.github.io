@@ -96,7 +96,7 @@ nav a{
     text-align: left;
     position: relative;
     font-family: "VT323";
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
  nav a+a::before{
      content: '';
