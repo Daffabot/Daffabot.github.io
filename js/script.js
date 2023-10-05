@@ -18,7 +18,7 @@ window.onload = () => {
     document.getElementById("myDiv").style.display = "block";
   }
   myFunction();
-  preloadImage("../image/profil.png")
+  preloadImage("../image/profil.webp")
     .then(() => {
       console.log("Gambar profil berhasil dimuat pertama");
     })
