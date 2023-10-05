@@ -9,7 +9,7 @@ function preloadImage(url) {
 }
 
 window.onload = () => {
-  var myVar;
+  let myVar;
   function myFunction() {
     myVar = setTimeout(showPage, 3000);
   }
@@ -29,12 +29,12 @@ window.onload = () => {
 
 //Script To Reveal Content
 function reveal() {
-  var reveals = document.querySelectorAll(".reveal, .inreveal");
+  let reveals = document.querySelectorAll(".reveal, .inreveal");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+  for (let i = 0; i < reveals.length; i++) {
+    let windowHeight = window.innerHeight;
+    let elementTop = reveals[i].getBoundingClientRect().top;
+    let elementVisible = 150;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -70,16 +70,27 @@ function topFunction() {
 }
 
 //script for comments disqus
-disqusLoader(".disqustret", {
-  scriptUrl: "//daffabot-main.disqus.com/embed.js",
-  disqusConfig: function () {
+function loadDisqus() {
+  let disqus_config = function () {
     this.page.identifier = "Daffabot";
     this.page.url = "https://www.daffabot.my.id";
     this.page.title = "Portofolio Daffa Ahmad Ibrahim";
-  },
+    };
+
+  let d = document, s = d.createElement('script');
+  s.src = 'https://daffabot-main.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+
+  document.getElementById('loadDisqus').classList.add('closeport');
+}
+
+// Menambahkan event listener ke tombol
+document.getElementById('loadDisqus').addEventListener('click', function() {
+  loadDisqus(); // Memanggil fungsi saat tombol diklik
 });
 
-var VisitorAPI=function(t,e,a){var s=new XMLHttpRequest;s.onreadystatechange=function(){var t;s.readyState===XMLHttpRequest.DONE&&(200===(t=JSON.parse(s.responseText)).status?e(t.data):a(t.status,t.result))},s.open("GET","https://api.visitorapi.com/api/?pid="+t),s.send(null)};
+let VisitorAPI=function(t,e,a){let s=new XMLHttpRequest;s.onreadystatechange=function(){let t;s.readyState===XMLHttpRequest.DONE&&(200===(t=JSON.parse(s.responseText)).status?e(t.data):a(t.status,t.result))},s.open("GET","https://api.visitorapi.com/api/?pid="+t),s.send(null)};
 
 VisitorAPI(
   "nS9amRNv2qBUhHBqYFQf",
