@@ -730,11 +730,13 @@ a:active {
 @font-face {
   font-family: "VT323";
   src: url("../font/VT323-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bungee";
   src: url("../font/Bungee-Regular.ttf");
+  font-display: swap;
 }
 
 /* Up Icon Setting */
