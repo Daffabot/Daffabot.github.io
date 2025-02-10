@@ -1,7 +1,13 @@
-import TOKEN from "./config.js";
+let TOKEN = null;
+
+try {
+  TOKEN = (await import("./config.js")).default;
+} catch (error) {
+  console.warn("config.js not found, proceeding without token.");
+}
 
 const token = TOKEN ? TOKEN.TOKEN : null;
-const headers = { Authorization: `Bearer ${token}` };
+const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
 export const fetchRepos = async () => {
   const response = await fetch("https://api.github.com/users/Daffabot/repos", { headers });
