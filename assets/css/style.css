@@ -368,6 +368,10 @@ article .text-center {
   text-align: center;
 }
 
+h2.text-center {
+  margin-bottom: 10px;
+}
+
 article a {
   color: var(--eight-color);
   font-weight: bold;
@@ -443,7 +447,7 @@ aside {
 
 #loadDisqus {
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
   padding: 10px 20px;
   background-color: var(--fifth-color);
   color: var(--eight-color);

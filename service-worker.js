@@ -1,7 +1,7 @@
 const CACHE_NAME = "v1";
 const CACHE_ASSETS = [
   "./", "./index.html", "./about/index.html", "./contact/index.html",
-  "./favicon-32x32.png", "./assets/css/style.css", "./assets/img/article1.jpg",
+  "./assets/favicon/favicon.ico", "./assets/css/style.css", "./assets/img/article1.jpg",
   "./assets/img/article2.jpg", "./assets/img/profil-github.png", "./assets/img/profil.jpg",
   "./assets/js/main.js", "./service-worker.js", "./assets/js/feature/sw-register.js",
   "./assets/js/feature/theme.js", "./assets/js/feature/ui.js", "./assets/js/config/api.js",
