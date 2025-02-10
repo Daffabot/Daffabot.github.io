@@ -36,8 +36,6 @@ const init = async () => {
   }
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  (window.location.pathname === "/" || window.location.pathname === "/index.html") ? init() : reveal();
-  initTheme();
-  registerServiceWorker();
-});
+(window.location.pathname === "/" || window.location.pathname === "/index.html") ? init() : reveal();
+initTheme();
+registerServiceWorker();
