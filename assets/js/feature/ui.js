@@ -48,12 +48,14 @@ export const reveal = () => {
 }));
 
 // Up To Scroll
+
 const upBtn = document.getElementById("up");
 const scrollFunction = () => {
   const isVisible = document.documentElement.scrollTop > 50;
   Object.assign(upBtn.style, { visibility: isVisible ? "visible" : "hidden", opacity: isVisible ? 1 : 0 });
 };
-
-upBtn.addEventListener("click", () => {
-  document.documentElement.scrollTop = 0;
-})
+if (upBtn) {
+  upBtn.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+  })
+}
