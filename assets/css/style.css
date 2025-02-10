@@ -1,0 +1,551 @@
+/* Settingan Awal */
+[data-theme="light"] {
+  --primary-color: #2b5876;
+  --secondary-color: #4e91c2;
+  --thrid-color: #0db4ca;
+  --fourth-color: #f4faff;
+  --fifth-color: #206ed3;
+  --six-color: #0374c5;
+  --seven-color: #00ffea;
+
+  /* Warna tambahan */
+  --eight-color: #ffffff;
+  --nine-color: #f2f2f2;
+  --ten-color: #707070;
+  --eleven-color: #000000;
+  --twelve-color: #444;
+  --thirdteen-color: #fffb00;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --primary-color: #121212;
+  --secondary-color: #1e1e1e;
+  --thrid-color: #4F1787;
+  --fourth-color: #444343;
+  --fifth-color: #bbb0b0;
+  --six-color: #0a0a0a;
+  --seven-color: #0068ad;
+
+  /* Warna tambahan */
+  --eight-color: #ffffff;
+  --nine-color: #e0e0e0;
+  --ten-color: #707070;
+  --eleven-color: #000000;
+  --twelve-color: #3a3a3a;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  max-width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--fourth-color);
+  color: var(--eight-color);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Settingan Loader */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -60px;
+  border: 16px solid var(--ten-color);
+  border-radius: 50%;
+  border-top: 16px solid var(--thrid-color);
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* Settingan Header */
+header {
+  position: sticky;
+  top: -3em;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > #top {
+  height: 3em;
+}
+
+header > #top > h1 > a {
+  text-decoration: none;
+  color: var(--eight-color);
+}
+
+nav {
+  width: 100%;
+  margin-top: auto;
+}
+
+nav ul {
+  transition: all 0.5s ease;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav > ul > li {
+  padding: 10px 0;
+  width: 33.333333%;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--fifth-color);
+  text-align: center;
+}
+
+nav > ul > li.active {
+  background-color: var(--six-color);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--eight-color);
+}
+
+nav ul li a:hover {
+  color: var(--seven-color);
+}
+
+/* Hamburger menu */
+.hamburger-button-container {
+  display: none;
+  margin: auto;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-button,
+.hamburger-button::before,
+.hamburger-button::after {
+  background-color: var(--eight-color);
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.hamburger-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.hamburger-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#hamburger-toggle {
+  display: none;
+}
+
+#hamburger-toggle:checked + .hamburger-button-container .hamburger-button::before {
+  transform: rotate(45deg);
+  margin-top: 0;
+}
+
+#hamburger-toggle:checked + .hamburger-button-container .hamburger-button {
+  background: transparent;
+}
+
+#hamburger-toggle:checked + .hamburger-button-container .hamburger-button::after {
+  transform: rotate(-45deg);
+  margin-top: 0;
+}
+
+.theme {
+  opacity: 0;
+  position: absolute;
+}
+
+.theme-label {
+  background-color: var(--thrid-color);
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: absolute;
+  right: 5vw;
+  top: 0.6em;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-label .ball {
+  background-color: var(--thirdteen-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear, box-shadow 0.4s ease;
+}
+
+.theme:checked + .theme-label .ball {
+  transform: translateX(24px);
+  box-shadow: inset -6px 1px 0 1px var(--eight-color);
+}
+
+/* Settingan Reveal Animation */
+@-webkit-keyframes swing-in-right-bck {
+  0% {
+    -webkit-transform: rotateY(70deg);
+    transform: rotateY(70deg);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-right-bck {
+  0% {
+    -webkit-transform: rotateY(70deg);
+    transform: rotateY(70deg);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes swing-in-left-bck {
+  0% {
+    -webkit-transform: rotateY(-70deg);
+    transform: rotateY(-70deg);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-left-bck {
+  0% {
+    -webkit-transform: rotateY(-70deg);
+    transform: rotateY(-70deg);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    opacity: 1;
+  }
+}
+
+.revealToTheRight,
+.revealToTheLeft {
+  transition: 1s all ease;
+  opacity: 0;
+}
+
+.revealToTheRight.active {
+  -webkit-animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-right-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  opacity: 1;
+}
+
+.revealToTheLeft.active {
+  -webkit-animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-left-bck 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  opacity: 1;
+}
+
+/* Settingan Isi Konten */
+main {
+  display: flex;
+  background: inherit;
+  z-index: 1;
+  position: relative;
+  margin-top: 10px;
+  flex: 1;
+  min-height: calc(80vh - 3em - 52px);
+}
+
+#content {
+  flex: 0 0 70%;
+}
+
+article {
+  width: calc(100% - 20px);
+  background-color: var(--primary-color);
+  display: block;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 10px 10px 10px;
+}
+
+article img {
+  max-width: 50vw;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.profile {
+    max-width: 25% !important;
+}
+
+article h1 {
+  margin-bottom: 5px;
+}
+
+article .text-center {
+  text-align: center;
+}
+
+article a {
+  color: var(--eight-color);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+aside {
+  flex: 0 0 30%;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card img {
+  max-width: 40%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--eleven-color);
+  margin: 5px 10px 5px 5px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 3px 15px 3px 15px;
+  background: var(--nine-color);
+  border: 1px solid var(--ten-color);
+}
+
+.card ul::before {
+  content: "Favorit Language";
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50px, -20px);
+  padding: 0 20px;
+}
+
+.card ul {
+  margin-top: 25px;
+}
+
+#up {
+  position: fixed;
+  width: 2em;
+  height: 2em;
+  background-color: var(--seven-color);
+  border-radius: 50%;
+  right: 1em;
+  bottom: 1em;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: var(--eleven-color);
+}
+
+#loadDisqus {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: var(--fifth-color);
+  color: var(--eight-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bolder;
+  transition: background-color 0.3s ease;
+}
+
+#loadDisqus:hover {
+  background-color: var(--six-color);
+}
+
+#loadDisqus.closeport {
+  display: none;
+}
+
+#disqus_thread {
+  margin: 0 6%;
+}
+
+/* Settingan Footer */
+footer {
+  background-color: var(--secondary-color);
+  min-width: 100%;
+  height: 20vh;
+  padding: 10px;
+  margin-top: auto;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.bottom {
+  position: absolute !important;
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  main {
+    display: block;
+    min-height: calc(80vh - 58px);
+  }
+
+  .card {
+    margin: 0 10px 10px 10px;
+  }
+
+  article {
+    text-align: center;
+  }
+
+  article > img {
+    max-width: 70vw;
+  }
+
+  .bottom {
+    position: sticky !important;
+  }
+
+  .hamburger-button-container {
+    display: flex;
+    position: absolute;
+    right: 5vw;
+  }
+
+  header {
+    top: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  header:has(#hamburger-toggle:checked) nav .hamburger {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  nav > ul > li {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav > ul > li:not(:last-child) {
+    border-bottom: 1px solid var(--twelve-color);
+  }
+
+  .theme-label {
+    left: 5vw;
+    right: unset;
+  }
+}
