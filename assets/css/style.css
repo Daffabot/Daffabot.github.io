@@ -96,7 +96,7 @@ body {
 /* Settingan Header */
 header {
   position: sticky;
-  top: -3em;
+  top: -4em;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ header {
 }
 
 header > #top {
-  height: 3em;
+  height: 4em;
 }
 
 header > #top > h1 > a {
@@ -217,7 +217,6 @@ nav ul li a:hover {
   border-radius: 50px;
   position: absolute;
   right: 5vw;
-  top: 0.6em;
   padding: 5px;
   cursor: pointer;
   display: flex;
@@ -427,8 +426,8 @@ aside {
 
 #up {
   position: fixed;
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   background-color: var(--seven-color);
   border-radius: 50%;
   right: 1em;
