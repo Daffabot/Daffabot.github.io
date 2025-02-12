@@ -1,9 +1,9 @@
 /* Settingan Awal */
 [data-theme="light"] {
-  --primary-color: #2b5876;
-  --secondary-color: #4e91c2;
+  --primary-color: #2D336B;
+  --secondary-color: #7886C7;
   --thrid-color: #0db4ca;
-  --fourth-color: #f4faff;
+  --fourth-color: #FFF2F2;
   --fifth-color: #206ed3;
   --six-color: #0374c5;
   --seven-color: #00ffea;
@@ -103,6 +103,7 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  transition: all 0.5s ease;
 }
 
 #top {
@@ -356,7 +357,7 @@ article img {
 }
 
 .profile {
-    max-width: 25% !important;
+  max-width: 25% !important;
 }
 
 article h1 {
