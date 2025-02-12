@@ -378,6 +378,14 @@ article a {
   transition: color 0.3s;
 }
 
+a, label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus, label:focus {
+  outline: none;
+}
+
 aside {
   flex: 0 0 30%;
 }
