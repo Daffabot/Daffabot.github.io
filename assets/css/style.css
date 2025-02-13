@@ -4,9 +4,9 @@
   --secondary-color: #7886C7;
   --thrid-color: #0db4ca;
   --fourth-color: #FFF2F2;
-  --fifth-color: #206ed3;
-  --six-color: #0374c5;
-  --seven-color: #00ffea;
+  --fifth-color: #475699;
+  --six-color: #5767af;
+  --seven-color: #2D336B;
 
   /* Warna tambahan */
   --eight-color: #ffffff;
@@ -20,12 +20,12 @@
 /* Dark Mode */
 [data-theme="dark"] {
   --primary-color: #121212;
-  --secondary-color: #1e1e1e;
+  --secondary-color: #2a2828;
   --thrid-color: #4F1787;
   --fourth-color: #444343;
-  --fifth-color: #bbb0b0;
+  --fifth-color: #3c3636;
   --six-color: #0a0a0a;
-  --seven-color: #0068ad;
+  --seven-color: #121212;
 
   /* Warna tambahan */
   --eight-color: #ffffff;
