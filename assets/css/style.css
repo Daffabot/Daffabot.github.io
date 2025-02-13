@@ -123,14 +123,11 @@ header > #top > h1 > a {
 
 nav {
   width: 100%;
-  margin-top: auto;
 }
 
 nav ul {
   transition: all 0.5s ease;
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
 }
 
@@ -332,7 +329,6 @@ main {
   background: inherit;
   z-index: 1;
   position: relative;
-  margin-top: 10px;
   flex: 1;
   min-height: calc(80vh - 3em - 52px);
 }
@@ -347,21 +343,20 @@ article {
   display: block;
   border-radius: 20px;
   padding: 20px;
-  margin: 0 10px 10px 10px;
+  margin: 10px;
 }
 
 article img {
-  max-width: 50vw;
+  max-width: 100%;
   border-radius: 10px;
-  margin-bottom: 10px;
 }
 
 .profile {
   max-width: 25% !important;
 }
 
-article h1 {
-  margin-bottom: 5px;
+article h2 {
+  margin-block: 5px;
 }
 
 article .text-center {
@@ -369,7 +364,7 @@ article .text-center {
 }
 
 h2.text-center {
-  margin-bottom: 10px;
+  margin-block: 0 10px;
 }
 
 article a {
@@ -395,7 +390,7 @@ aside {
   background-color: var(--secondary-color);
   border-radius: 20px;
   padding: 10px;
-  margin: 0 10px 10px 0;
+  margin: 10px 10px 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -411,7 +406,7 @@ aside {
 .card a {
   text-decoration: none;
   color: var(--eleven-color);
-  margin: 5px 10px 5px 5px;
+  margin: 5px;
   border-radius: 3px;
   text-align: center;
   padding: 3px 15px 3px 15px;
@@ -485,7 +480,6 @@ footer {
   min-width: 100%;
   height: 20vh;
   padding: 10px;
-  margin-top: auto;
   position: sticky;
   bottom: 0;
   display: flex;
@@ -507,14 +501,6 @@ footer {
 
   .card {
     margin: 0 10px 10px 10px;
-  }
-
-  article {
-    text-align: center;
-  }
-
-  article > img {
-    max-width: 70vw;
   }
 
   .bottom {
