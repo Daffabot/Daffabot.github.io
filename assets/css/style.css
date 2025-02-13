@@ -371,11 +371,11 @@ article a {
   transition: color 0.3s;
 }
 
-a, label {
+a, label, #up {
   -webkit-tap-highlight-color: transparent;
 }
 
-a:focus, label:focus {
+a:focus, label:focus, #up:focus {
   outline: none;
 }
 
