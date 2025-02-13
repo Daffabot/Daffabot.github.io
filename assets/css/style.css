@@ -6,7 +6,7 @@
   --fourth-color: #FFF2F2;
   --fifth-color: #475699;
   --six-color: #5767af;
-  --seven-color: #2D336B;
+  --seven-color: #3f457c;
 
   /* Warna tambahan */
   --eight-color: #ffffff;
@@ -25,7 +25,7 @@
   --fourth-color: #444343;
   --fifth-color: #3c3636;
   --six-color: #0a0a0a;
-  --seven-color: #121212;
+  --seven-color: #201b1b;
 
   /* Warna tambahan */
   --eight-color: #ffffff;
@@ -442,7 +442,7 @@ aside {
   cursor: pointer;
   font-weight: bolder;
   font-size: xx-large;
-  color: var(--eleven-color);
+  color: var(--eight-color);
 }
 
 #loadDisqus {
