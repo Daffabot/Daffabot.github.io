@@ -203,6 +203,7 @@ nav ul li a:hover {
 .theme {
   opacity: 0;
   position: absolute;
+  right: calc(5vw + 20px);
 }
 
 .theme-label {
@@ -538,5 +539,9 @@ footer {
   .theme-label {
     left: 5vw;
     right: unset;
+  }
+
+  .theme {
+    left: calc(5vw + 20px);
   }
 }
