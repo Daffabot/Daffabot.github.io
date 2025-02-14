@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html data-theme="">
+<html lang="id" data-theme="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Daffa Ahmad Ibrahim" />
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'nonce-random123' https://www.googletagmanager.com https://www.google-analytics.com;
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data: https:;
+    font-src 'self' https:;
+    connect-src 'self' https://www.google-analytics.com https://api.github.com;
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+    ">
     <link rel="icon" type="image/png" href="../favicon-32x32.png" />
     <title>About | Portfolio Daffa Ahmad Ibrahim</title>
     <link rel="stylesheet" href="../assets/css/style.css" />
