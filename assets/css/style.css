@@ -542,6 +542,7 @@ footer {
   }
 
   .theme {
+    right: unset;
     left: calc(5vw + 20px);
   }
 }
