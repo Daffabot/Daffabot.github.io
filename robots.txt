@@ -1,1 +1,1 @@
-Sitemap: https://www.daffabot.my.id/sitemap.xml
+sitemap: https://www.daffabot.my.id/sitemap.xml
