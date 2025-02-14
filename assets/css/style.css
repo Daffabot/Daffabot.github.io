@@ -98,10 +98,6 @@ header {
   position: sticky;
   top: -4em;
   background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   z-index: 10;
   transition: all 1s ease;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -129,12 +125,12 @@ nav {
 nav ul {
   transition: all 0.5s ease;
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 nav > ul > li {
   padding: 10px 0;
-  width: 33.333333%;
   background-color: var(--secondary-color);
   border: 2px solid var(--fifth-color);
   text-align: center;
@@ -515,7 +511,7 @@ footer {
   }
 
   nav ul {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     position: absolute;
     left: 0;
     width: 100%;
