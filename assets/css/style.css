@@ -349,11 +349,16 @@ article img {
   border-radius: 10px;
 }
 
+.profile {
+  max-width: 48%;
+  border-radius: 100%;
+}
+
 article h2 {
   margin-block: 5px;
 }
 
-article .text-center {
+.text-center {
   text-align: center;
 }
 
