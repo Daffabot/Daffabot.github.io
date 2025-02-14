@@ -10,13 +10,18 @@ const CACHE_ASSETS = [
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => Promise.all(
-        CACHE_ASSETS.map((url) =>
-          fetch(url)
-            .then((res) => res.ok ? cache.put(url, res) : Promise.reject(`Failed ${url}`))
-            .catch((err) => console.error(err))
+      .then((cache) =>
+        Promise.all(
+          CACHE_ASSETS.map((url) =>
+            fetch(url)
+              .then((res) => {
+                if (!res.ok) throw new Error(`Failed to fetch ${url}`);
+                return cache.put(url, res.clone()); // Clone response sebelum menyimpan
+              })
+              .catch((err) => console.error(err))
+          )
         )
-      ))
+      )
       .then(() => self.skipWaiting())
   );
 });
@@ -31,6 +36,11 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request))
+    fetch(event.request)
+      .then((res) => res) // Ambil dari network jika tersedia
+      .catch(() =>
+        caches.match(event.request)
+          .then((cachedRes) => cachedRes || new Response("Offline content not available", { status: 503 }))
+      )
   );
 });
