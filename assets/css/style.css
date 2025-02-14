@@ -531,9 +531,9 @@ footer {
     text-align: center;
   }
 
-  nav > ul > li:not(:last-child) {
+  /* nav > ul > li:not(:last-child) {
     border-bottom: 1px solid var(--twelve-color);
-  }
+  } */
 
   .theme-label {
     left: 5vw;
