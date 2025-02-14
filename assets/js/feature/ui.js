@@ -42,20 +42,24 @@ export const reveal = () => {
   });
 };
 
+// Up To Scroll
+const upBtn = document.getElementById("up");
+const toggleVisibility = () => {
+  if (!upBtn) return;
+  const isVisible = document.documentElement.scrollTop > 50;
+  Object.assign(upBtn.style, { 
+    visibility: isVisible ? "visible" : "hidden", 
+    opacity: isVisible ? 1 : 0 
+  });
+};
+
+const handleScroll = () => requestAnimationFrame(toggleVisibility);
+
+if (upBtn) {
+  upBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+}
+
 ["scroll", "resize"].forEach(event => window.addEventListener(event, () => {
   reveal();
-  scrollFunction();
+  handleScroll();
 }));
-
-// Up To Scroll
-
-const upBtn = document.getElementById("up");
-const scrollFunction = () => {
-  const isVisible = document.documentElement.scrollTop > 50;
-  Object.assign(upBtn.style, { visibility: isVisible ? "visible" : "hidden", opacity: isVisible ? 1 : 0 });
-};
-if (upBtn) {
-  upBtn.addEventListener("click", () => {
-    document.documentElement.scrollTop = 0;
-  })
-}
